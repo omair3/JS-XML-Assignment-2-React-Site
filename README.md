@@ -7,7 +7,6 @@ You can type ingredients or upload a label image. The server uses:
 - **Gemini** to generate a short, friendly explanation
 
 > This repo contains both the **client** (React) and **server** (Express) folders.  
-> Deployment is optional; below are **local run** steps for grading.
 
 ---
 
