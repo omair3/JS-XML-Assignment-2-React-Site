@@ -1,0 +1,19 @@
+:root { --bg:#0f172a; --card:#0b1220; --muted:#94a3b8; --text:#e2e8f0; --brand:#10b981; --warn:#f59e0b; --bad:#ef4444; }
+*{box-sizing:border-box} html,body,#root{height:100%} body{margin:0;background:#0b1020;color:var(--text);font-family:system-ui,Segoe UI,Roboto,Helvetica,Arial}
+.container{max-width:1100px;margin:0 auto;padding:24px}
+.header{display:flex;justify-content:space-between;align-items:center;padding:16px 0}
+.brand{font-weight:800;letter-spacing:.3px}
+.card{background:var(--card);border:1px solid #1e293b;border-radius:16px;padding:20px;box-shadow:0 10px 30px rgba(0,0,0,.25)}
+.grid{display:grid;gap:16px}
+@media(min-width:900px){.grid{grid-template-columns:1fr 1fr}}
+.label{font-size:14px;color:var(--muted);margin-bottom:6px}
+textarea{width:100%;min-height:120px;border-radius:12px;border:1px solid #243244;background:#0a0f1d;color:var(--text);padding:12px;resize:vertical}
+.btn{background:var(--brand);color:#042; border:0;padding:10px 14px;border-radius:10px;font-weight:700;cursor:pointer}
+.btn:disabled{opacity:.6;cursor:not-allowed}
+.badge{display:inline-flex;gap:6px;align-items:center;font-size:12px;padding:4px 10px;border-radius:999px;border:1px solid #1e293b;background:#0a0f1d}
+.badge.low{color:#10b981}.badge.medium{color:#f59e0b}.badge.high{color:#ef4444}
+.kv{display:flex;justify-content:space-between;align-items:center}
+.flags{display:flex;gap:8px;flex-wrap:wrap}
+.flag{font-size:12px;padding:6px 10px;border-radius:999px;background:#1e293b;color:#f59e0b}
+.prose{line-height:1.6}
+.muted{color:var(--muted)}

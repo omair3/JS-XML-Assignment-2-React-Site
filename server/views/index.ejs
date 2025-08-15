@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Food Label Analyzer - Analyze</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body class="min-h-screen flex flex-col font-poppins bg-light-mint">
+  <header class="bg-teal-600 text-white p-4 sticky top-0 shadow-md z-10 border-2 border-yellow-300">
+    <nav class="container mx-auto flex justify-between items-center">
+      <a href="/" class="text-2xl font-bold text-shadow hover:text-orange-200 transition duration-300">Food Label Analyzer</a>
+    </nav>
+  </header>
+
+  <main class="container mx-auto p-6 flex-grow">
+    <section class="p-8 rounded-lg shadow-md bg-white mb-8 card border-2 border-yellow-300">
+      <h2 class="text-3xl font-bold text-dark-gray mb-4">Analyze Your Food Label</h2>
+      <p class="text-dark-gray mb-6">Type or upload a label to check for health risks. 📸</p>
+
+      <div id="loading" class="hidden text-center mb-6">
+        <div class="w-full bg-gray-200 rounded-full h-2.5">
+          <div class="bg-orange-500 h-2.5 rounded-full animate-progress" style="width: 0%"></div>
+        </div>
+        <p class="text-dark-gray mt-2">Analyzing...</p>
+      </div>
+
+      <form id="analyzeForm" action="/analyze" method="POST" enctype="multipart/form-data" class="space-y-4">
+        <div>
+          <label for="ingredients" class="block text-dark-gray font-semibold mb-1">Ingredients:</label>
+          <textarea id="ingredients" name="ingredients" rows="4" class="w-full p-3 border rounded-md focus:outline-none focus:ring-2 focus:ring-orange-500 border-gray-300 mb-6 text-dark-gray" placeholder="e.g., Sugar, Palm Oil, Lactose"></textarea>
+        </div>
+        <div>
+          <label for="image" class="block text-dark-gray font-semibold mb-1">Upload Label:</label>
+          <input type="file" id="image" name="image" accept="image/png,image/jpeg,image/bmp" class="w-full p-2 border rounded-md border-gray-300">
+        </div>
+        <button type="submit" class="bg-gradient-to-r from-orange-400 to-orange-500 text-white px-6 py-3 rounded-md font-semibold hover:from-orange-600 hover:to-orange-500 transition duration-300 animate-scale-in">Analyze Now</button>
+      </form>
+    </section>
+
+    <% if (result) { %>
+      <section class="p-8 rounded-lg shadow-md bg-white card border-2 border-yellow-300">
+        <h3 class="text-2xl font-bold text-dark-gray mb-4">Analysis Results</h3>
+        <div class="space-y-6">
+          <div>
+            <h4 class="text-lg font-semibold text-dark-gray">Ingredients</h4>
+            <p class="text-dark-gray"><%= result.text %></p>
+          </div>
+          <div>
+            <h4 class="text-lg font-semibold text-dark-gray">Red Flags</h4>
+            <% if (result.flags.length > 0) { %>
+              <ul class="list-disc pl-6 text-dark-gray space-y-2">
+                <% result.flags.forEach(flag => { %>
+                  <li class="flex items-center">
+                    <%= flag %>
+                    <img src="/images/warning.png" alt="Warning" class="inline w-4 h-4 ml-2">
+                  </li>
+                <% }) %>
+              </ul>
+            <% } else { %>
+              <p class="text-orange-500">No harmful ingredients detected! ✅</p>
+            <% } %>
+          </div>
+          <div class="prose">
+            <h4 class="text-lg font-semibold text-dark-gray">Explanation</h4>
+            <%- result.note %>
+          </div>
+        </div>
+      </section>
+    <% } %>
+
+    <% if (error) { %>
+      <section class="bg-red-50 p-8 rounded-lg shadow-md text-red-600 card border-2 border-yellow-300">
+        <h3 class="text-2xl font-bold mb-4">Error</h3>
+        <p><%= error %></p>
+        <% if (errorDetails && process.env.NODE_ENV === 'development') { %>
+          <p class="mt-2"><strong>Details:</strong> <%= errorDetails.message %></p>
+          <p><strong>Stack:</strong> <%= errorDetails.stack %></p>
+        <% } %>
+      </section>
+    <% } %>
+  </main>
+
+  <footer class="bg-teal-600 text-white p-4 mt-auto border-2 border-yellow-300">
+    <div class="container mx-auto text-center">
+      <p>&copy; 2025 Food Label Analyzer. All rights reserved.</p>
+      <p class="mt-2">Follow us: 
+        <a href="https://twitter.com" class="hover:underline hover:text-orange-200">Twitter</a> | 
+        <a href="https://instagram.com" class="hover:underline hover:text-orange-200">Instagram</a> | 
+        <a href="mailto:support@foodanalyzer.com" class="hover:underline hover:text-orange-200">Contact</a>
+      </p>
+    </div>
+  </footer>
+
+  <script>
+    // Handle form submission and loading animation
+    const form = document.getElementById('analyzeForm');
+    const loading = document.getElementById('loading');
+    let isSubmitting = false;
+    form.addEventListener('submit', (e) => {
+      if (isSubmitting) e.preventDefault();
+      isSubmitting = true;
+      loading.classList.remove('hidden');
+      form.querySelector('button').disabled = true;
+      let width = 0;
+      const interval = setInterval(() => {
+        width += 10;
+        loading.querySelector('div').style.width = width + '%';
+        if (width >= 100) width = 0;
+      }, 200);
+    });
+
+    // Set up animation for sections and buttons
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('visible');
+        }
+      });
+    }, { threshold: 0.2 });
+
+    document.querySelectorAll('.animate-fade-in, .animate-scale-in').forEach(el => {
+      observer.observe(el);
+    });
+  </script>
+</body>
+</html>

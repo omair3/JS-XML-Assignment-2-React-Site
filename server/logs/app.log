@@ -1,0 +1,805 @@
+[2025-08-09T20:13:14.940Z] Server started at http://localhost:3000
+[2025-08-09T20:14:46.578Z] Analyze: New request
+[2025-08-09T20:14:46.583Z] OFF: Checking ingredients: INGREDIENTS: Milk Chocolate (Sugar, Cocoa Butter, Chocolate, Skim Milk, Lactose, Milkfat, Soy Lecithin), Peanuts, Corn Syrup, Sugar, Palm Oil, Skim Milk, Lactose, Salt, Egg Whites, Artificial Flavor.
+[2025-08-09T20:14:46.587Z] OFF: Searching INGREDIENTS: Milk Chocolate (Sugar
+[2025-08-09T20:14:50.526Z] OFF: Flagged INGREDIENTS: Milk Chocolate (Sugar
+[2025-08-09T20:14:50.530Z] OFF: Searching Cocoa Butter
+[2025-08-09T20:14:54.320Z] OFF: Searching Chocolate
+[2025-08-09T20:14:55.704Z] OFF: Searching Skim Milk
+[2025-08-09T20:14:59.901Z] OFF: Searching Lactose
+[2025-08-09T20:15:02.952Z] OFF: Flagged Lactose
+[2025-08-09T20:15:02.958Z] OFF: Searching Milkfat
+[2025-08-09T20:15:03.933Z] OFF: Searching Soy Lecithin)
+[2025-08-09T20:15:05.256Z] OFF: Searching Peanuts
+[2025-08-09T20:15:06.188Z] OFF: Searching Corn Syrup
+[2025-08-09T20:15:08.143Z] OFF: Searching Sugar
+[2025-08-09T20:15:12.049Z] AI: Sending prompt (first 200 chars): Explain in simple, friendly terms the health concerns of these ingredients: INGREDIENTS: Milk Chocolate (Sugar, Lactose. Keep it short and clear.
+[2025-08-09T20:15:12.854Z] AI ERROR: status=402, response={"error":{"message":"Insufficient Balance","type":"unknown_error","param":null,"code":"invalid_request_error"}}
+[2025-08-09T20:15:12.857Z] AI EXCEPTION: AI failed with status 402
+[2025-08-09T20:15:12.860Z] Analyze ERROR: AI failed with status 402
+[2025-08-09T20:29:24.605Z] Analyze: New request
+[2025-08-09T20:29:24.610Z] OFF: Checking ingredients: INGREDIENTS: Milk Chocolate (Sugar, Cocoa Butter, Chocolate, Skim Milk, Lactose, Milkfat, Soy Lecithin), Peanuts, Corn Syrup, Sugar, Palm Oil, Skim Milk, Lactose, Salt, Egg Whites, Artificial Flavor.
+[2025-08-09T20:29:24.613Z] OFF: Searching INGREDIENTS: Milk Chocolate (Sugar
+[2025-08-09T20:29:27.914Z] OFF: Flagged INGREDIENTS: Milk Chocolate (Sugar
+[2025-08-09T20:29:27.917Z] OFF: Searching Cocoa Butter
+[2025-08-09T20:29:31.294Z] OFF: Searching Chocolate
+[2025-08-09T20:29:35.027Z] OFF: Searching Skim Milk
+[2025-08-09T20:29:36.366Z] OFF: Searching Lactose
+[2025-08-09T20:29:37.433Z] OFF: Flagged Lactose
+[2025-08-09T20:29:37.436Z] OFF: Searching Milkfat
+[2025-08-09T20:29:38.240Z] OFF: Searching Soy Lecithin)
+[2025-08-09T20:29:39.026Z] OFF: Searching Peanuts
+[2025-08-09T20:29:41.224Z] OFF: Searching Corn Syrup
+[2025-08-09T20:29:42.216Z] OFF: Searching Sugar
+[2025-08-09T20:29:43.292Z] AI: Sending prompt (first 200 chars): Explain in simple, friendly terms the health concerns of these ingredients: INGREDIENTS: Milk Chocolate (Sugar, Lactose. Keep it short and clear.
+[2025-08-09T20:29:44.065Z] AI ERROR: status=402, response={"error":{"message":"Insufficient Balance","type":"unknown_error","param":null,"code":"invalid_request_error"}}
+[2025-08-09T20:29:44.070Z] AI EXCEPTION: AI failed with status 402
+[2025-08-09T20:29:44.072Z] Analyze ERROR: AI failed with status 402
+[2025-08-09T20:32:53.221Z] ERROR: GROK_API_KEY missing in .env
+[2025-08-09T20:32:53.237Z] Server started at http://localhost:3000
+[2025-08-09T20:33:23.868Z] Analyze: New request
+[2025-08-09T20:33:23.873Z] OFF: Checking ingredients: sugar, palm oil, E621, milk
+[2025-08-09T20:33:23.876Z] OFF: Parsed terms: sugar, palm oil, E621, milk
+[2025-08-09T20:33:23.879Z] OFF: Searching sugar
+[2025-08-09T20:33:26.196Z] OFF: Searching palm oil
+[2025-08-09T20:33:28.902Z] OFF: Flagged palm oil
+[2025-08-09T20:33:28.906Z] OFF: Searching E621
+[2025-08-09T20:33:29.248Z] OFF: Flagged E621
+[2025-08-09T20:33:29.250Z] OFF: Searching milk
+[2025-08-09T20:33:32.842Z] AI: Sending prompt (first 200 chars): Explain in simple, friendly terms the health concerns of these ingredients: palm oil, E621. Keep it short, clear, and engaging for a general audience.
+[2025-08-09T20:33:33.062Z] AI ERROR: status=401, response={"error":{"code":401,"message":"No or an invalid authentication header was provided on the request. Please make sure you pass your API key in the corresponding HTTP header."}}
+[2025-08-09T20:33:33.068Z] AI EXCEPTION: AI failed with status 401
+[2025-08-09T20:33:33.070Z] Analyze ERROR: AI failed with status 401
+[2025-08-09T20:35:31.477Z] Analyze: New request
+[2025-08-09T20:35:31.482Z] OFF: Checking ingredients: sugar, palm oil, E621, milk
+[2025-08-09T20:35:31.485Z] OFF: Parsed terms: sugar, palm oil, E621, milk
+[2025-08-09T20:35:31.490Z] OFF: Searching sugar
+[2025-08-09T20:35:33.577Z] OFF: Searching palm oil
+[2025-08-09T20:35:36.275Z] OFF: Flagged palm oil
+[2025-08-09T20:35:36.279Z] OFF: Searching E621
+[2025-08-09T20:35:36.446Z] OFF: Flagged E621
+[2025-08-09T20:35:36.451Z] OFF: Searching milk
+[2025-08-09T20:35:37.689Z] AI: Sending prompt (first 200 chars): Explain in simple, friendly terms the health concerns of these ingredients: palm oil, E621. Keep it short, clear, and engaging for a general audience.
+[2025-08-09T20:35:37.854Z] AI ERROR: status=401, response={"error":{"code":401,"message":"No or an invalid authentication header was provided on the request. Please make sure you pass your API key in the corresponding HTTP header."}}
+[2025-08-09T20:35:37.857Z] AI EXCEPTION: AI failed with status 401
+[2025-08-09T20:35:37.860Z] Analyze ERROR: AI failed with status 401
+[2025-08-09T20:39:09.383Z] Server started at http://localhost:3000
+[2025-08-09T20:40:55.528Z] Analyze: New request
+[2025-08-09T20:40:55.533Z] OFF: Checking ingredients: E621,Sugar,Palm Oil
+[2025-08-09T20:40:55.536Z] OFF: Parsed terms: E621, Sugar, Palm Oil
+[2025-08-09T20:40:55.539Z] OFF: Searching E621
+[2025-08-09T20:40:56.772Z] OFF: Flagged E621
+[2025-08-09T20:40:56.775Z] OFF: Searching Sugar
+[2025-08-09T20:40:58.678Z] OFF: Searching Palm Oil
+[2025-08-09T20:40:59.964Z] OFF: Flagged Palm Oil
+[2025-08-09T20:40:59.969Z] AI: Sending prompt (first 200 chars): Explain in simple, friendly terms the health concerns of these ingredients: E621, Palm Oil. Keep it short, clear, and engaging for a general audience.
+[2025-08-09T20:41:00.729Z] AI ERROR: status=403, response={"code":"The caller does not have permission to execute the specified operation","error":"Your newly created teams doesn't have any credits yet. You can purchase credits on https://console.x.ai/team/0fc59fc4-9c9e-4b45-b448-357747936c22."}
+[2025-08-09T20:41:00.735Z] AI EXCEPTION: AI failed with status 403
+[2025-08-09T20:41:00.738Z] Analyze ERROR: AI failed with status 403
+[2025-08-09T21:12:19.660Z] Server started at http://localhost:3000
+[2025-08-09T21:12:48.248Z] Analyze: New request
+[2025-08-09T21:12:48.253Z] OFF: Checking ingredients: e621, Sugar , Palm Oil
+[2025-08-09T21:12:48.257Z] OFF: Parsed terms: e621, Sugar, Palm Oil
+[2025-08-09T21:12:48.260Z] OFF: Searching e621
+[2025-08-09T21:12:49.782Z] OFF: Flagged e621
+[2025-08-09T21:12:49.785Z] OFF: Searching Sugar
+[2025-08-09T21:12:51.201Z] OFF: Searching Palm Oil
+[2025-08-09T21:12:52.305Z] OFF: Flagged Palm Oil
+[2025-08-09T21:12:52.310Z] AI: Sending prompt (first 200 chars): Explain in simple, friendly terms the health concerns of these ingredients: e621, Palm Oil. Keep it short, clear, and engaging for a general audience.
+[2025-08-09T21:12:54.070Z] AI: Got response (first 200 chars): Let's talk about two ingredients you might see on food labels:
+
+**E621 (Monosodium glutamate or MSG):**  Think of MSG as a flavor enhancer.  While most people tolerate it fine, *some* folks experience
+[2025-08-09T21:13:28.339Z] Analyze: New request
+[2025-08-09T21:13:28.342Z] OFF: Checking ingredients: INGREDIENTS: Milk Chocolate (Sugar, Cocoa Butter, Chocolate, Skim Milk, Lactose, Milkfat, Soy Lecithin), Peanuts, Corn Syrup, Sugar, Palm Oil, Skim Milk, Lactose, Salt, Egg Whites, Artificial Flavor.
+[2025-08-09T21:13:28.345Z] OFF: Parsed terms: INGREDIENTS: Milk Chocolate, Peanuts, Corn Syrup, Sugar, Palm Oil, Skim Milk, Lactose, Salt, Egg Whites, Artificial Flavor.
+[2025-08-09T21:13:28.349Z] OFF: Searching INGREDIENTS: Milk Chocolate
+[2025-08-09T21:13:32.090Z] OFF: Searching Peanuts
+[2025-08-09T21:13:33.483Z] OFF: Searching Corn Syrup
+[2025-08-09T21:13:34.555Z] OFF: Searching Sugar
+[2025-08-09T21:13:35.718Z] OFF: Searching Palm Oil
+[2025-08-09T21:13:36.795Z] OFF: Flagged Palm Oil
+[2025-08-09T21:13:36.800Z] OFF: Searching Skim Milk
+[2025-08-09T21:13:37.486Z] OFF: Searching Lactose
+[2025-08-09T21:13:38.486Z] OFF: Flagged Lactose
+[2025-08-09T21:13:38.489Z] OFF: Searching Salt
+[2025-08-09T21:13:40.955Z] OFF: Searching Egg Whites
+[2025-08-09T21:13:43.097Z] OFF: Flagged Egg Whites
+[2025-08-09T21:13:43.101Z] OFF: Searching Artificial Flavor.
+[2025-08-09T21:13:46.236Z] OFF: Flagged Artificial Flavor.
+[2025-08-09T21:13:46.238Z] AI: Sending prompt (first 200 chars): Explain in simple, friendly terms the health concerns of these ingredients: Palm Oil, Lactose, Egg Whites, Artificial Flavor.. Keep it short, clear, and engaging for a general audience.
+[2025-08-09T21:13:47.937Z] AI: Got response (first 200 chars): Let's talk ingredients!
+
+* **Palm Oil:**  While it's versatile,  unsustainable palm oil production harms rainforests and wildlife.  For you, it's high in saturated fat, potentially raising your choles
+[2025-08-09T21:14:36.970Z] Analyze: New request
+[2025-08-09T21:14:36.972Z] Analyze: Got image foodTest.png
+[2025-08-09T21:14:36.975Z] OCR: Processing file uploads\fad9775f056d6476b9c29227f7e32511
+[2025-08-09T21:14:37.791Z] OCR: Got text (first 200 chars): none
+[2025-08-09T21:14:37.803Z] Analyze: Deleted uploaded file uploads\fad9775f056d6476b9c29227f7e32511
+[2025-08-09T21:14:37.805Z] Analyze: No ingredients provided
+[2025-08-09T21:14:37.808Z] Analyze ERROR: Please provide ingredients or an image.
+[2025-08-09T21:18:19.189Z] Server started at http://localhost:3000
+[2025-08-09T21:18:33.536Z] Analyze: New request
+[2025-08-09T21:18:33.539Z] Analyze: Got image foodTest.png
+[2025-08-09T21:18:33.543Z] OCR: Processing file uploads\f4a46a4f497a5e102bc445f978bf0239
+[2025-08-09T21:18:34.757Z] OCR: Failed or empty result, OCRExitCode=99, ErrorMessage=Unable to recognize the file type,E216:Unable to detect the file extension, or the file extension is incorrect, and no 'file type' provided in request. Please provide a file with a proper content type or extension, or provide a file type in the request to manually set the file extension., ErrorDetails=none
+[2025-08-09T21:18:34.761Z] OCR EXCEPTION: Unable to recognize the file type,E216:Unable to detect the file extension, or the file extension is incorrect, and no 'file type' provided in request. Please provide a file with a proper content type or extension, or provide a file type in the request to manually set the file extension.
+[2025-08-09T21:18:34.763Z] Analyze ERROR: Unable to recognize the file type,E216:Unable to detect the file extension, or the file extension is incorrect, and no 'file type' provided in request. Please provide a file with a proper content type or extension, or provide a file type in the request to manually set the file extension.
+[2025-08-09T21:20:53.714Z] Server started at http://localhost:3000
+[2025-08-09T21:21:29.892Z] Analyze: New request
+[2025-08-09T21:21:29.895Z] Analyze: Got image foodTest.png
+[2025-08-09T21:21:29.899Z] OCR: Processing file uploads\foodTest.png (original: foodTest.png)
+[2025-08-09T21:21:31.397Z] OCR: Got text (first 200 chars): INGREDIENTS: MILK CHOCOLATE (SUGAR, COCOA
+BUTTER, CHOCOLATE, SKIM MILK, LACTOSE,
+MILKFAT, SOY LECITHIN), PEANUTS, CORN SYRUP,
+SUGAR, PALM OIL, SKIM MILK, LACTOSE, SALT, EGG
+WHITES, ARTIFICIAL FLAV
+[2025-08-09T21:21:31.401Z] Analyze: Deleted uploaded file uploads\foodTest.png
+[2025-08-09T21:21:31.404Z] OFF: Checking ingredients: INGREDIENTS: MILK CHOCOLATE (SUGAR, COCOA
+BUTTER, CHOCOLATE, SKIM MILK, LACTOSE,
+MILKFAT, SOY LECITHIN), PEANUTS, CORN SYRUP,
+SUGAR, PALM OIL, SKIM MILK, LACTOSE, SALT, EGG
+WHITES, ARTIFICIAL FLAV
+[2025-08-09T21:21:31.407Z] OFF: Parsed terms: INGREDIENTS: MILK CHOCOLATE (SUGAR, COCOA, BUTTER, CHOCOLATE, SKIM MILK, LACTOSE, MILKFAT, SOY LECITHIN), PEANUTS, CORN SYRUP
+[2025-08-09T21:21:31.411Z] OFF: Searching INGREDIENTS: MILK CHOCOLATE (SUGAR
+[2025-08-09T21:21:32.107Z] OFF: Flagged INGREDIENTS: MILK CHOCOLATE (SUGAR
+[2025-08-09T21:21:32.110Z] OFF: Searching COCOA
+[2025-08-09T21:21:34.896Z] OFF: Searching BUTTER
+[2025-08-09T21:21:35.840Z] OFF: Searching CHOCOLATE
+[2025-08-09T21:21:37.618Z] OFF: Searching SKIM MILK
+[2025-08-09T21:21:39.588Z] OFF: Searching LACTOSE
+[2025-08-09T21:21:42.379Z] OFF: Flagged LACTOSE
+[2025-08-09T21:21:42.383Z] OFF: Searching MILKFAT
+[2025-08-09T21:21:43.785Z] OFF: Searching SOY LECITHIN)
+[2025-08-09T21:21:45.492Z] OFF: Searching PEANUTS
+[2025-08-09T21:21:46.342Z] OFF: Searching CORN SYRUP
+[2025-08-09T21:21:48.322Z] AI: Sending prompt (first 200 chars): Explain in simple, friendly terms the health concerns of these ingredients: INGREDIENTS: MILK CHOCOLATE (SUGAR, LACTOSE. Keep it short, clear, and engaging for a general audience.
+[2025-08-09T21:21:49.219Z] AI: Got response (first 200 chars): Milk chocolate's main health concerns come from its **sugar** content, which can contribute to weight gain, tooth decay, and other health problems if eaten in excess.  **Lactose**, a milk sugar, can c
+[2025-08-09T21:24:33.481Z] Analyze: New request
+[2025-08-09T21:24:33.484Z] OFF: Checking ingredients: Sugar, Glucose Syrup, Wheat Flour, Palm Oil, Acidity Regulator (Malic acid), Artificial Flavour Strawberry Artificial Colour (E-12 2)
+[2025-08-09T21:24:33.487Z] OFF: Parsed terms: Sugar, Glucose Syrup, Wheat Flour, Palm Oil, Acidity Regulator, Artificial Flavour Strawberry Artificial Colour
+[2025-08-09T21:24:33.489Z] OFF: Searching Sugar
+[2025-08-09T21:24:36.643Z] OFF: Searching Glucose Syrup
+[2025-08-09T21:24:37.998Z] OFF: Flagged Glucose Syrup
+[2025-08-09T21:24:38.003Z] OFF: Searching Wheat Flour
+[2025-08-09T21:24:39.896Z] OFF: Searching Palm Oil
+[2025-08-09T21:24:41.004Z] OFF: Flagged Palm Oil
+[2025-08-09T21:24:41.007Z] OFF: Searching Acidity Regulator
+[2025-08-09T21:24:42.062Z] OFF: Flagged Acidity Regulator
+[2025-08-09T21:24:42.065Z] OFF: Searching Artificial Flavour Strawberry Artificial Colour
+[2025-08-09T21:24:44.022Z] OFF: Flagged Artificial Flavour Strawberry Artificial Colour
+[2025-08-09T21:24:44.025Z] AI: Sending prompt (first 200 chars): Explain in simple, friendly terms the health concerns of these ingredients: Glucose Syrup, Palm Oil, Acidity Regulator, Artificial Flavour Strawberry Artificial Colour. Keep it short, clear, and engag
+[2025-08-09T21:24:46.036Z] AI: Got response (first 200 chars): Let's break down those ingredients!
+
+* **Glucose Syrup:**  Think sugar, but maybe even worse for your teeth and blood sugar levels.  Too much can lead to weight gain, energy crashes, and even type 2 d
+[2025-08-09T21:25:21.251Z] Analyze: New request
+[2025-08-09T21:25:21.254Z] OFF: Checking ingredients: Sugar, Glucose Syrup, Wheat Flour, Palm Oil, Acidity Regulator (Malic acid), Artificial Flavour Strawberry Artificial Colour (E-12 2)
+[2025-08-09T21:25:21.257Z] OFF: Parsed terms: Sugar, Glucose Syrup, Wheat Flour, Palm Oil, Acidity Regulator, Artificial Flavour Strawberry Artificial Colour
+[2025-08-09T21:25:21.261Z] OFF: Searching Sugar
+[2025-08-09T21:25:23.192Z] OFF: Searching Glucose Syrup
+[2025-08-09T21:25:24.285Z] OFF: Flagged Glucose Syrup
+[2025-08-09T21:25:24.288Z] OFF: Searching Wheat Flour
+[2025-08-09T21:25:25.208Z] OFF: Searching Palm Oil
+[2025-08-09T21:25:26.285Z] OFF: Flagged Palm Oil
+[2025-08-09T21:25:26.288Z] OFF: Searching Acidity Regulator
+[2025-08-09T21:25:26.428Z] OFF: Flagged Acidity Regulator
+[2025-08-09T21:25:26.431Z] OFF: Searching Artificial Flavour Strawberry Artificial Colour
+[2025-08-09T21:25:27.671Z] OFF: Flagged Artificial Flavour Strawberry Artificial Colour
+[2025-08-09T21:25:27.674Z] AI: Sending prompt (first 200 chars): Explain in simple, friendly terms the health concerns of these ingredients: Glucose Syrup, Palm Oil, Acidity Regulator, Artificial Flavour Strawberry Artificial Colour. Keep it short, clear, and engag
+[2025-08-09T21:25:29.676Z] AI: Got response (first 200 chars): Let's break down those ingredients!
+
+* **Glucose Syrup:**  Think of this as sugar's less exciting cousin.  Too much can lead to weight gain, energy crashes, and problems with blood sugar.  Moderation 
+[2025-08-09T21:25:41.959Z] Analyze: New request
+[2025-08-09T21:25:41.962Z] OFF: Checking ingredients: Sugar, Glucose Syrup, Wheat Flour, Palm Oil, Acidity Regulator (Malic acid), Artificial Flavour Strawberry Artificial Colour (E-12 2)
+[2025-08-09T21:25:41.967Z] OFF: Parsed terms: Sugar, Glucose Syrup, Wheat Flour, Palm Oil, Acidity Regulator, Artificial Flavour Strawberry Artificial Colour
+[2025-08-09T21:25:41.969Z] OFF: Searching Sugar
+[2025-08-09T21:25:44.158Z] OFF: Searching Glucose Syrup
+[2025-08-09T21:25:44.523Z] OFF: Flagged Glucose Syrup
+[2025-08-09T21:25:44.525Z] OFF: Searching Wheat Flour
+[2025-08-09T21:25:45.338Z] OFF: Searching Palm Oil
+[2025-08-09T21:25:46.462Z] OFF: Flagged Palm Oil
+[2025-08-09T21:25:46.466Z] OFF: Searching Acidity Regulator
+[2025-08-09T21:25:46.725Z] OFF: Flagged Acidity Regulator
+[2025-08-09T21:25:46.728Z] OFF: Searching Artificial Flavour Strawberry Artificial Colour
+[2025-08-09T21:25:47.568Z] OFF: Flagged Artificial Flavour Strawberry Artificial Colour
+[2025-08-09T21:25:47.571Z] AI: Sending prompt (first 200 chars): Explain in simple, friendly terms the health concerns of these ingredients: Glucose Syrup, Palm Oil, Acidity Regulator, Artificial Flavour Strawberry Artificial Colour. Keep it short, clear, and engag
+[2025-08-09T21:25:49.538Z] AI: Got response (first 200 chars): Let's break down those ingredients, shall we?
+
+* **Glucose Syrup:**  Think of it as super-concentrated sugar.  Too much can lead to weight gain, energy crashes, and problems like tooth decay and type 
+[2025-08-09T21:37:50.484Z] Server started at http://localhost:3000
+[2025-08-09T21:50:45.137Z] Server started at http://localhost:3000
+[2025-08-09T21:51:38.124Z] Analyze: New request
+[2025-08-09T21:51:38.128Z] OFF: Checking ingredients: INGREDIENTS: Milk Chocolate (Sugar, Cocoa Butter, Chocolate, Skim Milk, Lactose, Milkfat, Soy Lecithin), Peanuts, Corn Syrup, Sugar, Palm Oil, Skim Milk, Lactose, Salt, Egg Whites, Artificial Flavor.
+[2025-08-09T21:51:38.131Z] OFF: Parsed terms: INGREDIENTS: Milk Chocolate, Peanuts, Corn Syrup, Sugar, Palm Oil, Skim Milk, Lactose, Salt, Egg Whites, Artificial Flavor.
+[2025-08-09T21:51:38.134Z] OFF: Searching INGREDIENTS: Milk Chocolate
+[2025-08-09T21:51:41.752Z] OFF: Searching Peanuts
+[2025-08-09T21:51:44.257Z] OFF: Searching Corn Syrup
+[2025-08-09T21:51:46.965Z] OFF: Searching Sugar
+[2025-08-09T21:51:48.137Z] OFF: Searching Palm Oil
+[2025-08-09T21:51:50.356Z] OFF: Flagged Palm Oil
+[2025-08-09T21:51:50.361Z] OFF: Searching Skim Milk
+[2025-08-09T21:51:51.344Z] OFF: Searching Lactose
+[2025-08-09T21:51:52.734Z] OFF: Flagged Lactose
+[2025-08-09T21:51:52.738Z] OFF: Searching Salt
+[2025-08-09T21:51:54.094Z] OFF: Searching Egg Whites
+[2025-08-09T21:51:56.226Z] OFF: Flagged Egg Whites
+[2025-08-09T21:51:56.229Z] OFF: Searching Artificial Flavor.
+[2025-08-09T21:51:59.159Z] OFF: Flagged Artificial Flavor.
+[2025-08-09T21:51:59.163Z] AI: Sending prompt (first 200 chars): Explain in simple, friendly terms the health concerns of these ingredients: Palm Oil, Lactose, Egg Whites, Artificial Flavor.. Keep it short, clear, and engaging for a general audience.
+[2025-08-09T21:52:00.875Z] AI: Got response (first 200 chars): Let's talk ingredients!
+
+* **Palm Oil:**  While not inherently *bad*,  unsustainable palm oil production harms rainforests and endangered animals.  For health, it's high in saturated fat, so too much 
+[2025-08-09T21:59:12.072Z] Analyze: New request
+[2025-08-09T21:59:12.075Z] OFF: Checking ingredients: INGREDIENTS: Milk Chocolate (Sugar, Cocoa Butter, Chocolate, Skim Milk, Lactose, Milkfat, Soy Lecithin), Peanuts, Corn Syrup, Sugar, Palm Oil, Skim Milk, Lactose, Salt, Egg Whites, Artificial Flavor.
+[2025-08-09T21:59:12.079Z] OFF: Parsed terms: INGREDIENTS: Milk Chocolate, Peanuts, Corn Syrup, Sugar, Palm Oil, Skim Milk, Lactose, Salt, Egg Whites, Artificial Flavor.
+[2025-08-09T21:59:12.081Z] OFF: Searching INGREDIENTS: Milk Chocolate
+[2025-08-09T21:59:15.397Z] OFF: Searching Peanuts
+[2025-08-09T21:59:16.428Z] OFF: Searching Corn Syrup
+[2025-08-09T21:59:17.397Z] OFF: Searching Sugar
+[2025-08-09T21:59:18.476Z] OFF: Searching Palm Oil
+[2025-08-09T21:59:19.548Z] OFF: Flagged Palm Oil
+[2025-08-09T21:59:19.551Z] OFF: Searching Skim Milk
+[2025-08-09T21:59:20.273Z] OFF: Searching Lactose
+[2025-08-09T21:59:21.559Z] OFF: Flagged Lactose
+[2025-08-09T21:59:21.562Z] OFF: Searching Salt
+[2025-08-09T21:59:22.406Z] OFF: Searching Egg Whites
+[2025-08-09T21:59:23.851Z] OFF: Flagged Egg Whites
+[2025-08-09T21:59:23.854Z] OFF: Searching Artificial Flavor.
+[2025-08-09T21:59:25.006Z] OFF: Flagged Artificial Flavor.
+[2025-08-09T21:59:25.009Z] AI: Sending prompt (first 200 chars): Explain in simple, friendly terms the health concerns of these ingredients: Palm Oil, Lactose, Egg Whites, Artificial Flavor.. Keep it short, clear, and engaging for a general audience.
+[2025-08-09T21:59:26.925Z] AI: Got response (first 200 chars): Let's talk food ingredients!
+
+* **Palm Oil:**  While it's in tons of stuff,  over-consumption can contribute to high cholesterol because it's high in saturated fat.  Think of it as a "sometimes" ingre
+[2025-08-09T22:10:36.195Z] Server started at http://localhost:3000
+[2025-08-09T22:11:13.244Z] Analyze: New request
+[2025-08-09T22:11:13.249Z] OFF: Checking ingredients: INGREDIENTS: Milk Chocolate (Sugar, Cocoa Butter, Chocolate, Skim Milk, Lactose, Milkfat, Soy Lecithin), Peanuts, Corn Syrup, Sugar, Palm Oil, Skim Milk, Lactose, Salt, Egg Whites, Artificial Flavor.
+[2025-08-09T22:11:13.252Z] OFF: Parsed terms: INGREDIENTS: Milk Chocolate, Peanuts, Corn Syrup, Sugar, Palm Oil, Skim Milk, Lactose, Salt, Egg Whites, Artificial Flavor.
+[2025-08-09T22:11:13.254Z] OFF: Searching INGREDIENTS: Milk Chocolate
+[2025-08-09T22:11:54.170Z] OFF: Searching Peanuts
+[2025-08-09T22:12:04.115Z] OFF: Searching Corn Syrup
+[2025-08-09T22:12:05.917Z] OFF: Searching Sugar
+[2025-08-09T22:12:06.948Z] OFF: Searching Palm Oil
+[2025-08-09T22:12:08.010Z] OFF: Flagged Palm Oil
+[2025-08-09T22:12:08.015Z] OFF: Searching Skim Milk
+[2025-08-09T22:12:17.638Z] OFF: Searching Lactose
+[2025-08-09T22:12:21.111Z] OFF: Flagged Lactose
+[2025-08-09T22:12:21.116Z] OFF: Searching Salt
+[2025-08-09T22:12:28.404Z] OFF: Searching Egg Whites
+[2025-08-09T22:12:28.747Z] Analyze: New request
+[2025-08-09T22:12:28.751Z] OFF: Checking ingredients: INGREDIENTS: Milk Chocolate (Sugar, Cocoa Butter, Chocolate, Skim Milk, Lactose, Milkfat, Soy Lecithin), Peanuts, Corn Syrup, Sugar, Palm Oil, Skim Milk, Lactose, Salt, Egg Whites, Artificial Flavor.
+[2025-08-09T22:12:28.754Z] OFF: Parsed terms: INGREDIENTS: Milk Chocolate, Peanuts, Corn Syrup, Sugar, Palm Oil, Skim Milk, Lactose, Salt, Egg Whites, Artificial Flavor.
+[2025-08-09T22:12:28.758Z] OFF: Searching INGREDIENTS: Milk Chocolate
+[2025-08-09T22:12:36.553Z] OFF: Searching Peanuts
+[2025-08-09T22:12:36.727Z] OFF: Flagged Egg Whites
+[2025-08-09T22:12:36.736Z] OFF: Searching Artificial Flavor.
+[2025-08-09T22:12:48.098Z] OFF: Searching Corn Syrup
+[2025-08-09T22:12:48.576Z] OFF: Flagged Artificial Flavor.
+[2025-08-09T22:12:48.580Z] AI: Sending prompt (first 200 chars): Explain in simple, friendly terms the health concerns of these ingredients: Palm Oil, Lactose, Egg Whites, Artificial Flavor.. Keep it short, clear, and engaging for a general audience.
+[2025-08-09T22:12:50.290Z] AI: Got response (first 200 chars): Let's talk about some common ingredients and their potential health impacts:
+
+* **Palm Oil:**  While not inherently *bad*,  overconsumption of palm oil can contribute to high cholesterol because it's 
+[2025-08-09T22:12:59.569Z] OFF: Searching Sugar
+[2025-08-09T22:13:10.736Z] OFF: Searching Palm Oil
+[2025-08-09T22:13:28.916Z] OFF: Flagged Palm Oil
+[2025-08-09T22:13:28.921Z] OFF: Searching Skim Milk
+[2025-08-09T22:13:38.322Z] OFF: Searching Lactose
+[2025-08-09T22:13:41.261Z] OFF: Flagged Lactose
+[2025-08-09T22:13:41.264Z] OFF: Searching Salt
+[2025-08-09T22:13:42.213Z] OFF: Searching Egg Whites
+[2025-08-09T22:13:43.355Z] OFF: Flagged Egg Whites
+[2025-08-09T22:13:43.357Z] OFF: Searching Artificial Flavor.
+[2025-08-09T22:13:44.175Z] OFF: Flagged Artificial Flavor.
+[2025-08-09T22:13:44.177Z] AI: Sending prompt (first 200 chars): Explain in simple, friendly terms the health concerns of these ingredients: Palm Oil, Lactose, Egg Whites, Artificial Flavor.. Keep it short, clear, and engaging for a general audience.
+[2025-08-09T22:13:45.864Z] AI: Got response (first 200 chars): Let's talk about some common food ingredients and their potential health impacts:
+
+* **Palm Oil:**  While not inherently bad,  *lots* of palm oil production destroys rainforests.  Also,  it's high in 
+[2025-08-09T23:03:15.109Z] Server started at http://localhost:3000
+[2025-08-09T23:04:50.687Z] Analyze: New request
+[2025-08-09T23:04:50.691Z] OFF: Checking ingredients: INGREDIENTS: Milk Chocolate (Sugar, Cocoa Butter, Chocolate, Skim Milk, Lactose, Milkfat, Soy Lecithin), Peanuts, Corn Syrup, Sugar, Palm Oil, Skim Milk, Lactose, Salt, Egg Whites, Artificial Flavor.
+[2025-08-09T23:04:50.694Z] OFF: Parsed terms: INGREDIENTS: Milk Chocolate, Peanuts, Corn Syrup, Sugar, Palm Oil
+[2025-08-09T23:04:50.697Z] OFF: Searching INGREDIENTS: Milk Chocolate
+[2025-08-09T23:04:50.981Z] OFF: Searching Peanuts
+[2025-08-09T23:04:50.990Z] OFF: Searching Corn Syrup
+[2025-08-09T23:04:50.997Z] OFF: Searching Sugar
+[2025-08-09T23:04:51.005Z] OFF: Searching Palm Oil
+[2025-08-09T23:04:54.044Z] OFF: Flagged Palm Oil
+[2025-08-09T23:04:55.069Z] AI: Sending prompt (first 200 chars): Explain in simple, friendly terms the health concerns of these ingredients: Palm Oil. Keep it short, clear, and engaging for a general audience.
+[2025-08-09T23:04:56.296Z] AI: Got response (first 200 chars): Palm oil itself isn't inherently *bad* for you, but how it's produced raises big health concerns.  The main issue is deforestation:  clearing land for palm oil plantations destroys habitats and releas
+[2025-08-10T00:10:04.105Z] Analyze: New request
+[2025-08-10T00:10:04.109Z] OFF: Checking ingredients: Sugar, Enriched Flour (Bleached Wheat Flour, Malted Barley Flour, Niacin, Ferrous Sulfate Or Reduced Iron, Thiamine Mononitrate, Riboflavin, Folic Acid), Water, High Fructose Corn Syrup, Tallow, Dextr
+[2025-08-10T00:10:04.113Z] OFF: Parsed terms: Sugar, Enriched Flour, Water, High Fructose Corn Syrup, Tallow
+[2025-08-10T00:10:04.116Z] OFF: Searching Sugar
+[2025-08-10T00:10:04.138Z] OFF: Searching Enriched Flour
+[2025-08-10T00:10:04.148Z] OFF: Searching Water
+[2025-08-10T00:10:04.167Z] OFF: Searching High Fructose Corn Syrup
+[2025-08-10T00:10:04.176Z] OFF: Searching Tallow
+[2025-08-10T00:11:04.528Z] OFF ERROR: status=504, response=<html>
+<head><title>504 Gateway Time-out</title></head>
+<body>
+<center><h1>504 Gateway Time-out</h1></center>
+<hr><center>nginx/1.18.0</center>
+</body>
+</html>
+
+[2025-08-10T00:11:04.538Z] OFF ERROR: status=504, response=<html>
+<head><title>504 Gateway Time-out</title></head>
+<body>
+<center><h1>504 Gateway Time-out</h1></center>
+<hr><center>nginx/1.18.0</center>
+</body>
+</html>
+
+[2025-08-10T00:11:04.552Z] OFF ERROR: status=504, response=<html>
+<head><title>504 Gateway Time-out</title></head>
+<body>
+<center><h1>504 Gateway Time-out</h1></center>
+<hr><center>nginx/1.18.0</center>
+</body>
+</html>
+
+[2025-08-10T00:11:04.563Z] OFF ERROR: status=504, response=<html>
+<head><title>504 Gateway Time-out</title></head>
+<body>
+<center><h1>504 Gateway Time-out</h1></center>
+<hr><center>nginx/1.18.0</center>
+</body>
+</html>
+
+[2025-08-10T00:11:04.572Z] OFF ERROR: status=504, response=<html>
+<head><title>504 Gateway Time-out</title></head>
+<body>
+<center><h1>504 Gateway Time-out</h1></center>
+<hr><center>nginx/1.18.0</center>
+</body>
+</html>
+
+[2025-08-10T00:11:04.575Z] AI: Sending prompt (first 200 chars): No harmful ingredients found! This product looks safe based on our checks. Want to know more about eating healthy?
+[2025-08-10T00:11:07.268Z] AI: Got response (first 200 chars): This is a good start to a message about a food product's safety.  Here are some ways to make it stronger, depending on the context:
+
+**Option 1 (Focus on reassurance):**
+
+> "No harmful ingredients fou
+[2025-08-10T00:27:52.408Z] Server started at http://localhost:3000
+[2025-08-10T00:28:36.943Z] Analyze: New request
+[2025-08-10T00:28:36.947Z] OFF: Checking ingredients: Ingredients
+Sugar, Enriched Flour (Bleached Wheat Flour, Malted Barley Flour, Niacin, Ferrous Sulfate Or Reduced Iron, Thiamine Mononitrate, Riboflavin, Folic Acid), Water, High Fructose Corn Syrup, 
+[2025-08-10T00:28:36.952Z] OFF: Parsed terms: Ingredients, Sugar, Enriched Flour, Water, High Fructose Corn Syrup
+[2025-08-10T00:28:36.955Z] OFF: Searching Ingredients
+[2025-08-10T00:28:37.279Z] OFF: Searching Sugar
+[2025-08-10T00:28:37.288Z] OFF: Searching Enriched Flour
+[2025-08-10T00:28:37.297Z] OFF: Searching Water
+[2025-08-10T00:28:37.305Z] OFF: Searching High Fructose Corn Syrup
+[2025-08-10T00:28:39.470Z] OFF: Flagged Enriched Flour
+[2025-08-10T00:28:40.160Z] AI: Sending prompt (first 200 chars): Explain in simple, friendly terms the health concerns of these ingredients: Enriched Flour. Keep it short, clear, and engaging for a general audience.
+[2025-08-10T00:28:41.235Z] AI: Got response (first 200 chars): Enriched flour is basically regular flour with some nutrients (like iron and B vitamins) added back in after processing removes them.  The problem?  While enrichment helps, it doesn't fully restore ev
+[2025-08-10T00:41:17.475Z] Server started at http://localhost:3000
+[2025-08-10T00:42:44.421Z] Analyze: New request
+[2025-08-10T00:42:44.425Z] OFF: Checking ingredients: Ingredients
+Sugar, Enriched Flour (Bleached Wheat Flour, Malted Barley Flour, Niacin, Ferrous Sulfate Or Reduced Iron, Thiamine Mononitrate, Riboflavin, Folic Acid), Water, High Fructose Corn Syrup, 
+[2025-08-10T00:42:44.429Z] OFF: Parsed terms: Ingredients, Sugar, Enriched Flour, Water, High Fructose Corn Syrup
+[2025-08-10T00:42:44.433Z] OFF: Searching Ingredients
+[2025-08-10T00:42:44.732Z] OFF: Searching Sugar
+[2025-08-10T00:42:44.741Z] OFF: Searching Enriched Flour
+[2025-08-10T00:42:44.751Z] OFF: Searching Water
+[2025-08-10T00:42:44.759Z] OFF: Flagged High Fructose Corn Syrup (term match)
+[2025-08-10T00:42:51.586Z] OFF: Flagged Enriched Flour
+[2025-08-10T00:42:52.100Z] AI: Sending prompt (first 200 chars): Explain in simple, friendly terms the health concerns of these ingredients: Enriched Flour, High Fructose Corn Syrup. Keep it short, clear, and engaging for a general audience. Use markdown for format
+[2025-08-10T00:42:54.377Z] AI: Got response (first 200 chars): Let's talk about two ingredients you see a lot:
+
+**Enriched Flour:**  Think white bread, pasta, etc.  While "enriched" sounds good, it means some nutrients were added back *after* processing stripped 
+[2025-08-10T01:01:42.891Z] Server started at http://localhost:3000
+[2025-08-10T01:02:21.074Z] Analyze: New request
+[2025-08-10T01:02:21.079Z] OFF: Checking ingredients: Ingredients
+Sugar, Enriched Flour (Bleached Wheat Flour, Malted Barley Flour, Niacin, Ferrous Sulfate Or Reduced Iron, Thiamine Mononitrate, Riboflavin, Folic Acid), Water, High Fructose Corn Syrup, 
+[2025-08-10T01:02:21.083Z] OFF: Parsed terms: Ingredients, Sugar, Enriched Flour, Water, High Fructose Corn Syrup, Tallow, Dextrose, Egg, Contains 2% Or Less Of: Soybean Oil, Modified Food Starch, Glycerine, Whey, Corn Starch, Salt, Corn Syrup Solids, Sodium Acid Pyrophosphate, Hydrogenated Tallow, Baking Soda, Cottonseed Oil, Soy Lecithin, Cellulose Gum, Sorbic Acid And Potassium Sorbate, Sodium Stearoyl Lactylate, Polysorbate 60, Mono And Diglycerides, Xanthan Gum, Monocalcium Phosphate, Enzymes, Natural And Artificial Flavors, Yellow 5, Red 40
+[2025-08-10T01:02:21.087Z] OFF: Searching Ingredients
+[2025-08-10T01:02:21.398Z] OFF: Searching Sugar
+[2025-08-10T01:02:21.407Z] OFF: Searching Enriched Flour
+[2025-08-10T01:02:21.416Z] OFF: Searching Water
+[2025-08-10T01:02:21.424Z] OFF: Flagged High Fructose Corn Syrup (term match)
+[2025-08-10T01:02:21.427Z] OFF: Searching Tallow
+[2025-08-10T01:02:21.435Z] OFF: Searching Dextrose
+[2025-08-10T01:02:21.442Z] OFF: Searching Egg
+[2025-08-10T01:02:21.448Z] OFF: Searching Contains 2% Or Less Of: Soybean Oil
+[2025-08-10T01:02:21.455Z] OFF: Searching Modified Food Starch
+[2025-08-10T01:02:21.468Z] OFF: Searching Glycerine
+[2025-08-10T01:02:21.476Z] OFF: Searching Whey
+[2025-08-10T01:02:21.482Z] OFF: Searching Corn Starch
+[2025-08-10T01:02:21.488Z] OFF: Searching Salt
+[2025-08-10T01:02:21.494Z] OFF: Searching Corn Syrup Solids
+[2025-08-10T01:02:21.501Z] OFF: Searching Sodium Acid Pyrophosphate
+[2025-08-10T01:02:21.508Z] OFF: Searching Hydrogenated Tallow
+[2025-08-10T01:02:21.524Z] OFF: Searching Baking Soda
+[2025-08-10T01:02:21.531Z] OFF: Searching Cottonseed Oil
+[2025-08-10T01:02:21.542Z] OFF: Searching Soy Lecithin
+[2025-08-10T01:02:21.548Z] OFF: Searching Cellulose Gum
+[2025-08-10T01:02:21.556Z] OFF: Searching Sorbic Acid And Potassium Sorbate
+[2025-08-10T01:02:21.562Z] OFF: Searching Sodium Stearoyl Lactylate
+[2025-08-10T01:02:21.567Z] OFF: Searching Polysorbate 60
+[2025-08-10T01:02:21.574Z] OFF: Searching Mono And Diglycerides
+[2025-08-10T01:02:21.580Z] OFF: Searching Xanthan Gum
+[2025-08-10T01:02:21.586Z] OFF: Searching Monocalcium Phosphate
+[2025-08-10T01:02:21.594Z] OFF: Searching Enzymes
+[2025-08-10T01:02:21.600Z] OFF: Flagged Natural And Artificial Flavors (term match)
+[2025-08-10T01:02:21.602Z] OFF: Searching Yellow 5
+[2025-08-10T01:02:21.608Z] OFF: Searching Red 40
+[2025-08-10T01:02:30.381Z] OFF: Flagged Enriched Flour
+[2025-08-10T01:02:30.663Z] OFF: Flagged Egg
+[2025-08-10T01:02:31.626Z] OFF RETRY EXCEPTION: network timeout at: https://world.openfoodfacts.org/cgi/search.pl?search_terms=Tallow&search_simple=1&action=process&json=1, url=https://world.openfoodfacts.org/cgi/search.pl?search_terms=Tallow&search_simple=1&action=process&json=1
+[2025-08-10T01:02:31.631Z] OFF RETRY EXCEPTION: network timeout at: https://world.openfoodfacts.org/cgi/search.pl?search_terms=Dextrose&search_simple=1&action=process&json=1, url=https://world.openfoodfacts.org/cgi/search.pl?search_terms=Dextrose&search_simple=1&action=process&json=1
+[2025-08-10T01:02:31.635Z] OFF RETRY EXCEPTION: network timeout at: https://world.openfoodfacts.org/cgi/search.pl?search_terms=Contains%202%25%20Or%20Less%20Of%3A%20Soybean%20Oil&search_simple=1&action=process&json=1, url=https://world.openfoodfacts.org/cgi/search.pl?search_terms=Contains%202%25%20Or%20Less%20Of%3A%20Soybean%20Oil&search_simple=1&action=process&json=1
+[2025-08-10T01:02:31.640Z] OFF RETRY EXCEPTION: network timeout at: https://world.openfoodfacts.org/cgi/search.pl?search_terms=Modified%20Food%20Starch&search_simple=1&action=process&json=1, url=https://world.openfoodfacts.org/cgi/search.pl?search_terms=Modified%20Food%20Starch&search_simple=1&action=process&json=1
+[2025-08-10T01:02:31.648Z] OFF RETRY EXCEPTION: network timeout at: https://world.openfoodfacts.org/cgi/search.pl?search_terms=Glycerine&search_simple=1&action=process&json=1, url=https://world.openfoodfacts.org/cgi/search.pl?search_terms=Glycerine&search_simple=1&action=process&json=1
+[2025-08-10T01:02:31.653Z] OFF RETRY EXCEPTION: network timeout at: https://world.openfoodfacts.org/cgi/search.pl?search_terms=Whey&search_simple=1&action=process&json=1, url=https://world.openfoodfacts.org/cgi/search.pl?search_terms=Whey&search_simple=1&action=process&json=1
+[2025-08-10T01:02:31.658Z] OFF RETRY EXCEPTION: network timeout at: https://world.openfoodfacts.org/cgi/search.pl?search_terms=Corn%20Starch&search_simple=1&action=process&json=1, url=https://world.openfoodfacts.org/cgi/search.pl?search_terms=Corn%20Starch&search_simple=1&action=process&json=1
+[2025-08-10T01:02:31.662Z] OFF RETRY EXCEPTION: network timeout at: https://world.openfoodfacts.org/cgi/search.pl?search_terms=Salt&search_simple=1&action=process&json=1, url=https://world.openfoodfacts.org/cgi/search.pl?search_terms=Salt&search_simple=1&action=process&json=1
+[2025-08-10T01:02:31.665Z] OFF RETRY EXCEPTION: network timeout at: https://world.openfoodfacts.org/cgi/search.pl?search_terms=Corn%20Syrup%20Solids&search_simple=1&action=process&json=1, url=https://world.openfoodfacts.org/cgi/search.pl?search_terms=Corn%20Syrup%20Solids&search_simple=1&action=process&json=1
+[2025-08-10T01:02:31.669Z] OFF RETRY EXCEPTION: network timeout at: https://world.openfoodfacts.org/cgi/search.pl?search_terms=Sodium%20Acid%20Pyrophosphate&search_simple=1&action=process&json=1, url=https://world.openfoodfacts.org/cgi/search.pl?search_terms=Sodium%20Acid%20Pyrophosphate&search_simple=1&action=process&json=1
+[2025-08-10T01:02:31.673Z] OFF RETRY EXCEPTION: network timeout at: https://world.openfoodfacts.org/cgi/search.pl?search_terms=Hydrogenated%20Tallow&search_simple=1&action=process&json=1, url=https://world.openfoodfacts.org/cgi/search.pl?search_terms=Hydrogenated%20Tallow&search_simple=1&action=process&json=1
+[2025-08-10T01:02:31.677Z] OFF RETRY EXCEPTION: network timeout at: https://world.openfoodfacts.org/cgi/search.pl?search_terms=Baking%20Soda&search_simple=1&action=process&json=1, url=https://world.openfoodfacts.org/cgi/search.pl?search_terms=Baking%20Soda&search_simple=1&action=process&json=1
+[2025-08-10T01:02:31.680Z] OFF RETRY EXCEPTION: network timeout at: https://world.openfoodfacts.org/cgi/search.pl?search_terms=Cottonseed%20Oil&search_simple=1&action=process&json=1, url=https://world.openfoodfacts.org/cgi/search.pl?search_terms=Cottonseed%20Oil&search_simple=1&action=process&json=1
+[2025-08-10T01:02:31.684Z] OFF RETRY EXCEPTION: network timeout at: https://world.openfoodfacts.org/cgi/search.pl?search_terms=Soy%20Lecithin&search_simple=1&action=process&json=1, url=https://world.openfoodfacts.org/cgi/search.pl?search_terms=Soy%20Lecithin&search_simple=1&action=process&json=1
+[2025-08-10T01:02:31.688Z] OFF RETRY EXCEPTION: network timeout at: https://world.openfoodfacts.org/cgi/search.pl?search_terms=Cellulose%20Gum&search_simple=1&action=process&json=1, url=https://world.openfoodfacts.org/cgi/search.pl?search_terms=Cellulose%20Gum&search_simple=1&action=process&json=1
+[2025-08-10T01:02:31.691Z] OFF RETRY EXCEPTION: network timeout at: https://world.openfoodfacts.org/cgi/search.pl?search_terms=Sorbic%20Acid%20And%20Potassium%20Sorbate&search_simple=1&action=process&json=1, url=https://world.openfoodfacts.org/cgi/search.pl?search_terms=Sorbic%20Acid%20And%20Potassium%20Sorbate&search_simple=1&action=process&json=1
+[2025-08-10T01:02:31.694Z] OFF RETRY EXCEPTION: network timeout at: https://world.openfoodfacts.org/cgi/search.pl?search_terms=Sodium%20Stearoyl%20Lactylate&search_simple=1&action=process&json=1, url=https://world.openfoodfacts.org/cgi/search.pl?search_terms=Sodium%20Stearoyl%20Lactylate&search_simple=1&action=process&json=1
+[2025-08-10T01:02:31.698Z] OFF RETRY EXCEPTION: network timeout at: https://world.openfoodfacts.org/cgi/search.pl?search_terms=Polysorbate%2060&search_simple=1&action=process&json=1, url=https://world.openfoodfacts.org/cgi/search.pl?search_terms=Polysorbate%2060&search_simple=1&action=process&json=1
+[2025-08-10T01:02:31.701Z] OFF RETRY EXCEPTION: network timeout at: https://world.openfoodfacts.org/cgi/search.pl?search_terms=Mono%20And%20Diglycerides&search_simple=1&action=process&json=1, url=https://world.openfoodfacts.org/cgi/search.pl?search_terms=Mono%20And%20Diglycerides&search_simple=1&action=process&json=1
+[2025-08-10T01:02:31.705Z] OFF RETRY EXCEPTION: network timeout at: https://world.openfoodfacts.org/cgi/search.pl?search_terms=Xanthan%20Gum&search_simple=1&action=process&json=1, url=https://world.openfoodfacts.org/cgi/search.pl?search_terms=Xanthan%20Gum&search_simple=1&action=process&json=1
+[2025-08-10T01:02:31.708Z] OFF RETRY EXCEPTION: network timeout at: https://world.openfoodfacts.org/cgi/search.pl?search_terms=Monocalcium%20Phosphate&search_simple=1&action=process&json=1, url=https://world.openfoodfacts.org/cgi/search.pl?search_terms=Monocalcium%20Phosphate&search_simple=1&action=process&json=1
+[2025-08-10T01:02:31.711Z] OFF RETRY EXCEPTION: network timeout at: https://world.openfoodfacts.org/cgi/search.pl?search_terms=Enzymes&search_simple=1&action=process&json=1, url=https://world.openfoodfacts.org/cgi/search.pl?search_terms=Enzymes&search_simple=1&action=process&json=1
+[2025-08-10T01:02:31.715Z] OFF RETRY EXCEPTION: network timeout at: https://world.openfoodfacts.org/cgi/search.pl?search_terms=Yellow%205&search_simple=1&action=process&json=1, url=https://world.openfoodfacts.org/cgi/search.pl?search_terms=Yellow%205&search_simple=1&action=process&json=1
+[2025-08-10T01:02:31.718Z] OFF RETRY EXCEPTION: network timeout at: https://world.openfoodfacts.org/cgi/search.pl?search_terms=Red%2040&search_simple=1&action=process&json=1, url=https://world.openfoodfacts.org/cgi/search.pl?search_terms=Red%2040&search_simple=1&action=process&json=1
+[2025-08-10T01:02:39.360Z] OFF: Flagged Glycerine
+[2025-08-10T01:02:39.423Z] OFF: Flagged Cellulose Gum
+[2025-08-10T01:02:42.135Z] OFF: Flagged Corn Syrup Solids
+[2025-08-10T01:02:42.302Z] OFF: Flagged Red 40
+[2025-08-10T01:02:42.435Z] OFF: Flagged Polysorbate 60
+[2025-08-10T01:02:42.828Z] OFF: Flagged Dextrose
+[2025-08-10T01:02:43.064Z] OFF: Flagged Whey
+[2025-08-10T01:02:43.662Z] OFF RETRY EXCEPTION: network timeout at: https://world.openfoodfacts.org/cgi/search.pl?search_terms=Contains%202%25%20Or%20Less%20Of%3A%20Soybean%20Oil&search_simple=1&action=process&json=1, url=https://world.openfoodfacts.org/cgi/search.pl?search_terms=Contains%202%25%20Or%20Less%20Of%3A%20Soybean%20Oil&search_simple=1&action=process&json=1
+[2025-08-10T01:02:43.677Z] OFF RETRY EXCEPTION: network timeout at: https://world.openfoodfacts.org/cgi/search.pl?search_terms=Salt&search_simple=1&action=process&json=1, url=https://world.openfoodfacts.org/cgi/search.pl?search_terms=Salt&search_simple=1&action=process&json=1
+[2025-08-10T01:02:43.681Z] OFF RETRY EXCEPTION: network timeout at: https://world.openfoodfacts.org/cgi/search.pl?search_terms=Sodium%20Acid%20Pyrophosphate&search_simple=1&action=process&json=1, url=https://world.openfoodfacts.org/cgi/search.pl?search_terms=Sodium%20Acid%20Pyrophosphate&search_simple=1&action=process&json=1
+[2025-08-10T01:02:43.685Z] OFF RETRY EXCEPTION: network timeout at: https://world.openfoodfacts.org/cgi/search.pl?search_terms=Hydrogenated%20Tallow&search_simple=1&action=process&json=1, url=https://world.openfoodfacts.org/cgi/search.pl?search_terms=Hydrogenated%20Tallow&search_simple=1&action=process&json=1
+[2025-08-10T01:02:43.689Z] OFF RETRY EXCEPTION: network timeout at: https://world.openfoodfacts.org/cgi/search.pl?search_terms=Baking%20Soda&search_simple=1&action=process&json=1, url=https://world.openfoodfacts.org/cgi/search.pl?search_terms=Baking%20Soda&search_simple=1&action=process&json=1
+[2025-08-10T01:02:43.693Z] OFF RETRY EXCEPTION: network timeout at: https://world.openfoodfacts.org/cgi/search.pl?search_terms=Cottonseed%20Oil&search_simple=1&action=process&json=1, url=https://world.openfoodfacts.org/cgi/search.pl?search_terms=Cottonseed%20Oil&search_simple=1&action=process&json=1
+[2025-08-10T01:02:43.708Z] OFF RETRY EXCEPTION: network timeout at: https://world.openfoodfacts.org/cgi/search.pl?search_terms=Sorbic%20Acid%20And%20Potassium%20Sorbate&search_simple=1&action=process&json=1, url=https://world.openfoodfacts.org/cgi/search.pl?search_terms=Sorbic%20Acid%20And%20Potassium%20Sorbate&search_simple=1&action=process&json=1
+[2025-08-10T01:02:43.711Z] OFF RETRY EXCEPTION: network timeout at: https://world.openfoodfacts.org/cgi/search.pl?search_terms=Sodium%20Stearoyl%20Lactylate&search_simple=1&action=process&json=1, url=https://world.openfoodfacts.org/cgi/search.pl?search_terms=Sodium%20Stearoyl%20Lactylate&search_simple=1&action=process&json=1
+[2025-08-10T01:02:43.716Z] OFF RETRY EXCEPTION: network timeout at: https://world.openfoodfacts.org/cgi/search.pl?search_terms=Mono%20And%20Diglycerides&search_simple=1&action=process&json=1, url=https://world.openfoodfacts.org/cgi/search.pl?search_terms=Mono%20And%20Diglycerides&search_simple=1&action=process&json=1
+[2025-08-10T01:02:43.720Z] OFF RETRY EXCEPTION: network timeout at: https://world.openfoodfacts.org/cgi/search.pl?search_terms=Xanthan%20Gum&search_simple=1&action=process&json=1, url=https://world.openfoodfacts.org/cgi/search.pl?search_terms=Xanthan%20Gum&search_simple=1&action=process&json=1
+[2025-08-10T01:02:43.725Z] OFF RETRY EXCEPTION: network timeout at: https://world.openfoodfacts.org/cgi/search.pl?search_terms=Monocalcium%20Phosphate&search_simple=1&action=process&json=1, url=https://world.openfoodfacts.org/cgi/search.pl?search_terms=Monocalcium%20Phosphate&search_simple=1&action=process&json=1
+[2025-08-10T01:02:43.729Z] OFF RETRY EXCEPTION: network timeout at: https://world.openfoodfacts.org/cgi/search.pl?search_terms=Enzymes&search_simple=1&action=process&json=1, url=https://world.openfoodfacts.org/cgi/search.pl?search_terms=Enzymes&search_simple=1&action=process&json=1
+[2025-08-10T01:02:43.740Z] OFF RETRY EXCEPTION: network timeout at: https://world.openfoodfacts.org/cgi/search.pl?search_terms=Yellow%205&search_simple=1&action=process&json=1, url=https://world.openfoodfacts.org/cgi/search.pl?search_terms=Yellow%205&search_simple=1&action=process&json=1
+[2025-08-10T01:02:54.461Z] OFF: Flagged Hydrogenated Tallow
+[2025-08-10T01:02:54.704Z] OFF: Flagged Sodium Stearoyl Lactylate
+[2025-08-10T01:02:57.675Z] OFF RETRY EXCEPTION: network timeout at: https://world.openfoodfacts.org/cgi/search.pl?search_terms=Contains%202%25%20Or%20Less%20Of%3A%20Soybean%20Oil&search_simple=1&action=process&json=1, url=https://world.openfoodfacts.org/cgi/search.pl?search_terms=Contains%202%25%20Or%20Less%20Of%3A%20Soybean%20Oil&search_simple=1&action=process&json=1
+[2025-08-10T01:02:57.677Z] OFF EXCEPTION for Contains 2% Or Less Of: Soybean Oil: network timeout at: https://world.openfoodfacts.org/cgi/search.pl?search_terms=Contains%202%25%20Or%20Less%20Of%3A%20Soybean%20Oil&search_simple=1&action=process&json=1
+[2025-08-10T01:02:57.696Z] OFF RETRY EXCEPTION: network timeout at: https://world.openfoodfacts.org/cgi/search.pl?search_terms=Sodium%20Acid%20Pyrophosphate&search_simple=1&action=process&json=1, url=https://world.openfoodfacts.org/cgi/search.pl?search_terms=Sodium%20Acid%20Pyrophosphate&search_simple=1&action=process&json=1
+[2025-08-10T01:02:57.698Z] OFF EXCEPTION for Sodium Acid Pyrophosphate: network timeout at: https://world.openfoodfacts.org/cgi/search.pl?search_terms=Sodium%20Acid%20Pyrophosphate&search_simple=1&action=process&json=1
+[2025-08-10T01:02:57.730Z] OFF RETRY EXCEPTION: network timeout at: https://world.openfoodfacts.org/cgi/search.pl?search_terms=Sorbic%20Acid%20And%20Potassium%20Sorbate&search_simple=1&action=process&json=1, url=https://world.openfoodfacts.org/cgi/search.pl?search_terms=Sorbic%20Acid%20And%20Potassium%20Sorbate&search_simple=1&action=process&json=1
+[2025-08-10T01:02:57.732Z] OFF EXCEPTION for Sorbic Acid And Potassium Sorbate: network timeout at: https://world.openfoodfacts.org/cgi/search.pl?search_terms=Sorbic%20Acid%20And%20Potassium%20Sorbate&search_simple=1&action=process&json=1
+[2025-08-10T01:02:57.735Z] OFF RETRY EXCEPTION: network timeout at: https://world.openfoodfacts.org/cgi/search.pl?search_terms=Mono%20And%20Diglycerides&search_simple=1&action=process&json=1, url=https://world.openfoodfacts.org/cgi/search.pl?search_terms=Mono%20And%20Diglycerides&search_simple=1&action=process&json=1
+[2025-08-10T01:02:57.737Z] OFF EXCEPTION for Mono And Diglycerides: network timeout at: https://world.openfoodfacts.org/cgi/search.pl?search_terms=Mono%20And%20Diglycerides&search_simple=1&action=process&json=1
+[2025-08-10T01:02:57.740Z] OFF RETRY EXCEPTION: network timeout at: https://world.openfoodfacts.org/cgi/search.pl?search_terms=Monocalcium%20Phosphate&search_simple=1&action=process&json=1, url=https://world.openfoodfacts.org/cgi/search.pl?search_terms=Monocalcium%20Phosphate&search_simple=1&action=process&json=1
+[2025-08-10T01:02:57.741Z] OFF EXCEPTION for Monocalcium Phosphate: network timeout at: https://world.openfoodfacts.org/cgi/search.pl?search_terms=Monocalcium%20Phosphate&search_simple=1&action=process&json=1
+[2025-08-10T01:02:58.066Z] OFF: Flagged Cottonseed Oil
+[2025-08-10T01:02:58.209Z] OFF: Flagged Baking Soda
+[2025-08-10T01:02:58.241Z] OFF: Flagged Xanthan Gum
+[2025-08-10T01:02:58.243Z] AI: Sending prompt (first 200 chars): Explain in simple, friendly terms the health concerns of these ingredients: Enriched Flour, High Fructose Corn Syrup, Dextrose, Egg, Glycerine, Whey, Corn Syrup Solids, Hydrogenated Tallow, Baking Sod
+[2025-08-10T01:03:00.846Z] AI: Got response (first 200 chars): Let's decode some food labels!  Many of these ingredients, while generally safe in moderation, can raise some health flags if consumed regularly in large quantities:
+
+* **Enriched Flour, High Fructose
+[2025-08-10T01:27:55.512Z] Server started at http://localhost:3000
+[2025-08-10T01:40:36.468Z] Server started at http://localhost:3000
+[2025-08-10T01:43:46.187Z] Analyze: New request
+[2025-08-10T01:43:46.190Z] OFF: Checking ingredients: Ingredients: Sugar, Enriched Flour (Bleached Wheat Flour, Malted Barley Flour, Niacin, Ferrous Sulfate Or Reduced Iron, Thiamine Mononitrate, Riboflavin, Folic Acid), Water, High Fructose Corn Syrup
+[2025-08-10T01:43:46.192Z] OFF: Parsed terms: Ingredients: Sugar, Enriched Flour, Water, High Fructose Corn Syrup
+[2025-08-10T01:43:46.194Z] OFF: Searching Ingredients: Sugar
+[2025-08-10T01:43:46.326Z] OFF: Searching Enriched Flour
+[2025-08-10T01:43:46.330Z] OFF: Searching Water
+[2025-08-10T01:43:46.336Z] OFF: Flagged High Fructose Corn Syrup (term match)
+[2025-08-10T01:43:54.217Z] OFF: Flagged Enriched Flour
+[2025-08-10T01:43:54.354Z] AI: Sending prompt (first 200 chars): Explain in simple, friendly terms the health concerns of these ingredients: Enriched Flour, High Fructose Corn Syrup. Keep it short, clear, and engaging for a general audience. Use markdown for format
+[2025-08-10T01:43:57.449Z] AI: Got response (first 200 chars): Let's talk about two ingredients you see a lot: **Enriched Flour** and **High Fructose Corn Syrup**.  They're not necessarily *evil*, but enjoying them in moderation is key!
+
+**Enriched Flour:**  Thin
+[2025-08-10T03:09:32.625Z] Server started at http://localhost:3000
+[2025-08-10T15:36:42.047Z] Server started at http://localhost:3000
+[2025-08-10T15:37:53.286Z] Analyze: New request
+[2025-08-10T15:37:53.290Z] OFF: Checking ingredients: Sugar, Enriched Flour (Bleached Wheat Flour, Malted Barley Flour, Niacin, Ferrous Sulfate Or Reduced Iron, Thiamine Mononitrate, Riboflavin, Folic Acid), Water, High Fructose Corn Syrup, Tallow, Dextr
+[2025-08-10T15:37:53.295Z] OFF: Parsed terms: Sugar, Enriched Flour, Water, High Fructose Corn Syrup, Tallow, Dextrose, Egg, Contains 2% Or Less Of: Soybean Oil, Modified Food Starch, Glycerine, Whey, Corn Starch, Salt, Corn Syrup Solids, Sodium Acid Pyrophosphate, Hydrogenated Tallow, Baking Soda, Cottonseed Oil, Soy Lecithin, Cellulose Gum, Sorbic Acid And Potassium Sorbate, Sodium Stearoyl Lactylate, Polysorbate 60, Mono And Diglycerides, Xanthan Gum, Monocalcium Phosphate, Enzymes, Natural And Artificial Flavors, Yellow 5, Red 40.
+[2025-08-10T15:37:53.299Z] OFF: Searching Sugar
+[2025-08-10T15:37:53.588Z] OFF: Searching Enriched Flour
+[2025-08-10T15:37:53.596Z] OFF: Searching Water
+[2025-08-10T15:37:53.605Z] OFF: Flagged High Fructose Corn Syrup (term match)
+[2025-08-10T15:37:53.608Z] OFF: Searching Tallow
+[2025-08-10T15:37:53.616Z] OFF: Searching Dextrose
+[2025-08-10T15:37:53.624Z] OFF: Searching Egg
+[2025-08-10T15:37:53.631Z] OFF: Searching Contains 2% Or Less Of: Soybean Oil
+[2025-08-10T15:37:53.637Z] OFF: Searching Modified Food Starch
+[2025-08-10T15:37:53.647Z] OFF: Searching Glycerine
+[2025-08-10T15:37:53.658Z] OFF: Searching Whey
+[2025-08-10T15:37:53.665Z] OFF: Searching Corn Starch
+[2025-08-10T15:37:53.670Z] OFF: Searching Salt
+[2025-08-10T15:37:53.676Z] OFF: Searching Corn Syrup Solids
+[2025-08-10T15:37:53.683Z] OFF: Searching Sodium Acid Pyrophosphate
+[2025-08-10T15:37:53.688Z] OFF: Searching Hydrogenated Tallow
+[2025-08-10T15:37:53.694Z] OFF: Searching Baking Soda
+[2025-08-10T15:37:53.700Z] OFF: Searching Cottonseed Oil
+[2025-08-10T15:37:53.705Z] OFF: Searching Soy Lecithin
+[2025-08-10T15:37:53.712Z] OFF: Searching Cellulose Gum
+[2025-08-10T15:37:53.718Z] OFF: Searching Sorbic Acid And Potassium Sorbate
+[2025-08-10T15:37:53.724Z] OFF: Searching Sodium Stearoyl Lactylate
+[2025-08-10T15:37:53.730Z] OFF: Searching Polysorbate 60
+[2025-08-10T15:37:53.735Z] OFF: Searching Mono And Diglycerides
+[2025-08-10T15:37:53.742Z] OFF: Searching Xanthan Gum
+[2025-08-10T15:37:53.748Z] OFF: Searching Monocalcium Phosphate
+[2025-08-10T15:37:53.757Z] OFF: Searching Enzymes
+[2025-08-10T15:37:53.765Z] OFF: Flagged Natural And Artificial Flavors (term match)
+[2025-08-10T15:37:53.770Z] OFF: Searching Yellow 5
+[2025-08-10T15:37:53.786Z] OFF: Searching Red 40.
+[2025-08-10T15:37:54.894Z] OFF: Flagged Hydrogenated Tallow
+[2025-08-10T15:37:55.271Z] OFF: Flagged Glycerine
+[2025-08-10T15:37:55.454Z] OFF: Flagged Dextrose
+[2025-08-10T15:37:55.593Z] OFF: Flagged Egg
+[2025-08-10T15:37:55.638Z] OFF: Flagged Polysorbate 60
+[2025-08-10T15:37:55.735Z] OFF: Flagged Sodium Stearoyl Lactylate
+[2025-08-10T15:37:55.828Z] OFF: Flagged Enriched Flour
+[2025-08-10T15:37:55.884Z] OFF: Flagged Corn Syrup Solids
+[2025-08-10T15:37:55.984Z] OFF: Flagged Sodium Acid Pyrophosphate
+[2025-08-10T15:37:56.085Z] OFF: Flagged Contains 2% Or Less Of: Soybean Oil
+[2025-08-10T15:37:56.522Z] OFF: Flagged Xanthan Gum
+[2025-08-10T15:37:56.798Z] OFF: Flagged Mono And Diglycerides
+[2025-08-10T15:37:56.857Z] OFF: Flagged Cellulose Gum
+[2025-08-10T15:37:56.923Z] OFF: Flagged Cottonseed Oil
+[2025-08-10T15:37:57.080Z] OFF: Flagged Baking Soda
+[2025-08-10T15:37:57.260Z] OFF: Flagged Whey
+[2025-08-10T15:37:57.408Z] OFF: Flagged Red 40.
+[2025-08-10T15:37:58.430Z] OFF: Flagged Monocalcium Phosphate
+[2025-08-10T15:37:58.434Z] AI: Sending prompt (first 200 chars): Explain in simple, friendly terms the health concerns of these ingredients: Enriched Flour, High Fructose Corn Syrup, Dextrose, Egg, Contains 2% Or Less Of: Soybean Oil, Glycerine, Whey, Corn Syrup So
+[2025-08-10T15:38:01.545Z] AI: Got response (first 200 chars): Let's break down some common food ingredients and their potential health impacts:
+
+* **Enriched Flour, High Fructose Corn Syrup, Dextrose, Corn Syrup Solids:** These are all sources of simple sugars, 
+[2025-08-10T17:24:40.266Z] Analyze: New request
+[2025-08-10T17:24:40.269Z] OFF: Checking ingredients: Sugar, Enriched Flour (Bleached Wheat Flour, Malted Barley Flour, Niacin, Ferrous Sulfate Or Reduced Iron, Thiamine Mononitrate, Riboflavin, Folic Acid), Water, High Fructose Corn Syrup, Tallow, Dextr
+[2025-08-10T17:24:40.271Z] OFF: Parsed terms: Sugar, Enriched Flour, Water, High Fructose Corn Syrup, Tallow, Dextrose, Egg, Contains 2% Or Less Of: Soybean Oil, Modified Food Starch, Glycerine, Whey, Corn Starch, Salt, Corn Syrup Solids, Sodium Acid Pyrophosphate, Hydrogenated Tallow, Baking Soda, Cottonseed Oil, Soy Lecithin, Cellulose Gum, Sorbic Acid And Potassium Sorbate, Sodium Stearoyl Lactylate, Polysorbate 60, Mono And Diglycerides, Xanthan Gum, Monocalcium Phosphate, Enzymes, Natural And Artificial Flavors, Yellow 5, Red 40.
+[2025-08-10T17:24:40.273Z] OFF: Searching Sugar
+[2025-08-10T17:24:40.292Z] OFF: Searching Enriched Flour
+[2025-08-10T17:24:40.299Z] OFF: Searching Water
+[2025-08-10T17:24:40.302Z] OFF: Flagged High Fructose Corn Syrup (term match)
+[2025-08-10T17:24:40.304Z] OFF: Searching Tallow
+[2025-08-10T17:24:40.307Z] OFF: Searching Dextrose
+[2025-08-10T17:24:40.314Z] OFF: Searching Egg
+[2025-08-10T17:24:40.319Z] OFF: Searching Contains 2% Or Less Of: Soybean Oil
+[2025-08-10T17:24:40.322Z] OFF: Searching Modified Food Starch
+[2025-08-10T17:24:40.328Z] OFF: Searching Glycerine
+[2025-08-10T17:24:40.332Z] OFF: Searching Whey
+[2025-08-10T17:24:40.335Z] OFF: Searching Corn Starch
+[2025-08-10T17:24:40.337Z] OFF: Searching Salt
+[2025-08-10T17:24:40.340Z] OFF: Searching Corn Syrup Solids
+[2025-08-10T17:24:40.344Z] OFF: Searching Sodium Acid Pyrophosphate
+[2025-08-10T17:24:40.348Z] OFF: Searching Hydrogenated Tallow
+[2025-08-10T17:24:40.351Z] OFF: Searching Baking Soda
+[2025-08-10T17:24:40.354Z] OFF: Searching Cottonseed Oil
+[2025-08-10T17:24:40.357Z] OFF: Searching Soy Lecithin
+[2025-08-10T17:24:40.361Z] OFF: Searching Cellulose Gum
+[2025-08-10T17:24:40.366Z] OFF: Searching Sorbic Acid And Potassium Sorbate
+[2025-08-10T17:24:40.369Z] OFF: Searching Sodium Stearoyl Lactylate
+[2025-08-10T17:24:40.372Z] OFF: Searching Polysorbate 60
+[2025-08-10T17:24:40.375Z] OFF: Searching Mono And Diglycerides
+[2025-08-10T17:24:40.378Z] OFF: Searching Xanthan Gum
+[2025-08-10T17:24:40.381Z] OFF: Searching Monocalcium Phosphate
+[2025-08-10T17:24:40.384Z] OFF: Searching Enzymes
+[2025-08-10T17:24:40.387Z] OFF: Flagged Natural And Artificial Flavors (term match)
+[2025-08-10T17:24:40.388Z] OFF: Searching Yellow 5
+[2025-08-10T17:24:40.392Z] OFF: Searching Red 40.
+[2025-08-10T17:24:41.488Z] OFF: Flagged Sodium Stearoyl Lactylate
+[2025-08-10T17:24:41.531Z] OFF: Flagged Hydrogenated Tallow
+[2025-08-10T17:24:41.545Z] OFF: Flagged Glycerine
+[2025-08-10T17:24:41.898Z] OFF: Flagged Sodium Acid Pyrophosphate
+[2025-08-10T17:24:41.992Z] OFF: Flagged Whey
+[2025-08-10T17:24:42.013Z] OFF: Flagged Corn Syrup Solids
+[2025-08-10T17:24:42.027Z] OFF: Flagged Polysorbate 60
+[2025-08-10T17:24:42.174Z] OFF: Flagged Egg
+[2025-08-10T17:24:42.415Z] OFF: Flagged Dextrose
+[2025-08-10T17:24:42.433Z] OFF: Flagged Monocalcium Phosphate
+[2025-08-10T17:24:42.499Z] OFF: Flagged Enriched Flour
+[2025-08-10T17:24:42.567Z] OFF: Flagged Xanthan Gum
+[2025-08-10T17:24:42.656Z] OFF: Flagged Mono And Diglycerides
+[2025-08-10T17:24:42.685Z] OFF: Flagged Cellulose Gum
+[2025-08-10T17:24:43.052Z] OFF: Flagged Red 40.
+[2025-08-10T17:24:43.312Z] OFF: Flagged Baking Soda
+[2025-08-10T17:24:43.716Z] OFF: Flagged Cottonseed Oil
+[2025-08-10T17:24:43.956Z] OFF: Flagged Contains 2% Or Less Of: Soybean Oil
+[2025-08-10T17:24:44.019Z] AI: Sending prompt (first 200 chars): Explain in simple, friendly terms the health concerns of these ingredients: Enriched Flour, High Fructose Corn Syrup, Dextrose, Egg, Contains 2% Or Less Of: Soybean Oil, Glycerine, Whey, Corn Syrup So
+[2025-08-10T17:24:47.385Z] AI: Got response (first 200 chars): Let's decode those ingredients!  Some are fine, others raise a few eyebrows:
+
+**The "Okay-ish" Crew:**
+
+* **Enriched Flour, Eggs:**  These are common, generally safe.  But too much enriched flour (ref
+[2025-08-10T17:27:39.539Z] Analyze: New request
+[2025-08-10T17:27:39.540Z] Analyze: Got image foodTest.png
+[2025-08-10T17:27:39.542Z] OCR: Processing file uploads\foodTest.png (original: foodTest.png)
+[2025-08-10T17:27:40.435Z] OCR: Got text (first 200 chars): INGREDIENTS: MILK CHOCOLATE (SUGAR, COCOA
+BUTTER, CHOCOLATE, SKIM MILK, LACTOSE,
+MILKFAT, SOY LECITHIN), PEANUTS, CORN SYRUP,
+SUGAR, PALM OIL, SKIM MILK, LACTOSE, SALT, EGG
+WHITES, ARTIFICIAL FLAV
+[2025-08-10T17:27:40.443Z] Analyze: Deleted uploaded file uploads\foodTest.png
+[2025-08-10T17:27:40.444Z] OFF: Checking ingredients: INGREDIENTS: MILK CHOCOLATE (SUGAR, COCOA
+BUTTER, CHOCOLATE, SKIM MILK, LACTOSE,
+MILKFAT, SOY LECITHIN), PEANUTS, CORN SYRUP,
+SUGAR, PALM OIL, SKIM MILK, LACTOSE, SALT, EGG
+WHITES, ARTIFICIAL FLAV
+[2025-08-10T17:27:40.446Z] OFF: Parsed terms: INGREDIENTS: MILK CHOCOLATE (SUGAR, COCOA, BUTTER, CHOCOLATE, SKIM MILK, LACTOSE, MILKFAT, SOY LECITHIN), PEANUTS, CORN SYRUP, SUGAR, PALM OIL, SKIM MILK, LACTOSE, SALT, EGG, WHITES, ARTIFICIAL FLAVOR., CONTAINS PEANUTS, MILK, EGG AND SOY. MAY, CONTAIN TREE NUTS.
+[2025-08-10T17:27:40.447Z] OFF: Searching INGREDIENTS: MILK CHOCOLATE (SUGAR
+[2025-08-10T17:27:40.452Z] OFF: Searching COCOA
+[2025-08-10T17:27:40.456Z] OFF: Searching BUTTER
+[2025-08-10T17:27:40.459Z] OFF: Searching CHOCOLATE
+[2025-08-10T17:27:40.462Z] OFF: Searching SKIM MILK
+[2025-08-10T17:27:40.464Z] OFF: Flagged LACTOSE (term match)
+[2025-08-10T17:27:40.467Z] OFF: Searching MILKFAT
+[2025-08-10T17:27:40.471Z] OFF: Searching SOY LECITHIN)
+[2025-08-10T17:27:40.474Z] OFF: Searching PEANUTS
+[2025-08-10T17:27:40.477Z] OFF: Searching CORN SYRUP
+[2025-08-10T17:27:40.479Z] OFF: Searching SUGAR
+[2025-08-10T17:27:40.482Z] OFF: Flagged PALM OIL (term match)
+[2025-08-10T17:27:40.484Z] OFF: Searching SKIM MILK
+[2025-08-10T17:27:40.488Z] OFF: Flagged LACTOSE (term match)
+[2025-08-10T17:27:40.489Z] OFF: Searching SALT
+[2025-08-10T17:27:40.492Z] OFF: Searching EGG
+[2025-08-10T17:27:40.495Z] OFF: Searching WHITES
+[2025-08-10T17:27:40.498Z] OFF: Flagged ARTIFICIAL FLAVOR. (term match)
+[2025-08-10T17:27:40.499Z] OFF: Searching CONTAINS PEANUTS
+[2025-08-10T17:27:40.504Z] OFF: Searching MILK
+[2025-08-10T17:27:40.514Z] OFF: Searching EGG AND SOY. MAY
+[2025-08-10T17:27:40.523Z] OFF: Searching CONTAIN TREE NUTS.
+[2025-08-10T17:27:43.990Z] OFF: Flagged EGG
+[2025-08-10T17:27:44.004Z] OFF: Flagged INGREDIENTS: MILK CHOCOLATE (SUGAR
+[2025-08-10T17:27:44.059Z] OFF: Flagged CONTAINS PEANUTS
+[2025-08-10T17:27:46.694Z] AI: Sending prompt (first 200 chars): Explain in simple, friendly terms the health concerns of these ingredients: INGREDIENTS: MILK CHOCOLATE (SUGAR, LACTOSE, PALM OIL, LACTOSE, EGG, ARTIFICIAL FLAVOR., CONTAINS PEANUTS. Keep it short, cl
+[2025-08-10T17:27:49.109Z] AI: Got response (first 200 chars): Let's talk about those ingredients!  This milk chocolate has some things to be mindful of:
+
+* **Milk & Lactose:**  Dairy is great for many, but some people are lactose intolerant and experience digest
+[2025-08-10T17:41:56.071Z] Analyze: New request
+[2025-08-10T17:41:56.073Z] OFF: Checking ingredients: Sugars (sugar, Corn Syrup Solids, Maltodexrin), Modified Milk Ingredients, Coconut Oil, Instant Coffee, Salt, Skim Milk Powder, Silicon Dioxide, Cocoa, Guar Gum, Dipotassium Phosphate, Mono-and Diglyc
+[2025-08-10T17:41:56.076Z] OFF: Parsed terms: Sugars, Modified Milk Ingredients, Coconut Oil, Instant Coffee, Salt, Skim Milk Powder, Silicon Dioxide, Cocoa, Guar Gum, Dipotassium Phosphate, Mono-and Diglycerides, Natural Flavour, Artificial Flavours, Tricalcium Phosphate, Sodium Silico Aluminate.
+[2025-08-10T17:41:56.079Z] OFF: Searching Sugars
+[2025-08-10T17:41:56.085Z] OFF: Searching Modified Milk Ingredients
+[2025-08-10T17:41:56.089Z] OFF: Searching Coconut Oil
+[2025-08-10T17:41:56.092Z] OFF: Searching Instant Coffee
+[2025-08-10T17:41:56.096Z] OFF: Searching Salt
+[2025-08-10T17:41:56.099Z] OFF: Searching Skim Milk Powder
+[2025-08-10T17:41:56.103Z] OFF: Searching Silicon Dioxide
+[2025-08-10T17:41:56.106Z] OFF: Searching Cocoa
+[2025-08-10T17:41:56.110Z] OFF: Searching Guar Gum
+[2025-08-10T17:41:56.116Z] OFF: Searching Dipotassium Phosphate
+[2025-08-10T17:41:56.119Z] OFF: Searching Mono-and Diglycerides
+[2025-08-10T17:41:56.121Z] OFF: Searching Natural Flavour
+[2025-08-10T17:41:56.124Z] OFF: Searching Artificial Flavours
+[2025-08-10T17:41:56.129Z] OFF: Searching Tricalcium Phosphate
+[2025-08-10T17:41:56.133Z] OFF: Searching Sodium Silico Aluminate.
+[2025-08-10T17:41:57.469Z] OFF: Flagged Modified Milk Ingredients
+[2025-08-10T17:41:57.482Z] OFF: Flagged Tricalcium Phosphate
+[2025-08-10T17:41:57.590Z] OFF: Flagged Silicon Dioxide
+[2025-08-10T17:41:57.819Z] OFF: Flagged Dipotassium Phosphate
+[2025-08-10T17:41:58.161Z] OFF: Flagged Mono-and Diglycerides
+[2025-08-10T17:41:58.734Z] OFF: Flagged Skim Milk Powder
+[2025-08-10T17:41:58.962Z] OFF: Flagged Artificial Flavours
+[2025-08-10T17:41:59.099Z] OFF: Flagged Coconut Oil
+[2025-08-10T17:41:59.617Z] AI: Sending prompt (first 200 chars): Explain in simple, friendly terms the health concerns of these ingredients: Modified Milk Ingredients, Coconut Oil, Skim Milk Powder, Silicon Dioxide, Dipotassium Phosphate, Mono-and Diglycerides, Art
+[2025-08-10T17:42:02.302Z] AI: Got response (first 200 chars): Let's decode some food ingredient labels!  Here's a quick rundown of potential health concerns, remember to consult a doctor or registered dietitian with specific concerns:
+
+* **Modified Milk Ingredie
+[2025-08-10T18:33:33.116Z] Server started at http://localhost:3000
+[2025-08-10T18:34:28.175Z] Analyze: New request
+[2025-08-10T18:34:28.179Z] OFF: Checking ingredients: Sugar, Enriched Flour (Bleached Wheat Flour, Malted Barley Flour, Niacin, Ferrous Sulfate Or Reduced Iron, Thiamine Mononitrate, Riboflavin, Folic Acid), Water, High Fructose Corn Syrup, Tallow, Dextr
+[2025-08-10T18:34:28.185Z] OFF: Parsed terms: Sugar, Enriched Flour, Water, High Fructose Corn Syrup, Tallow, Dextrose, Egg, Contains 2% Or Less Of: Soybean Oil, Modified Food Starch, Glycerine, Whey, Corn Starch, Salt, Corn Syrup Solids, Sodium Acid Pyrophosphate, Hydrogenated Tallow, Baking Soda, Cottonseed Oil, Soy Lecithin, Cellulose Gum, Sorbic Acid And Potassium Sorbate, Sodium Stearoyl Lactylate, Polysorbate 60, Mono And Diglycerides, Xanthan Gum, Monocalcium Phosphate, Enzymes, Natural And Artificial Flavors, Yellow 5, Red 40.
+[2025-08-10T18:34:28.189Z] OFF: Searching Sugar
+[2025-08-10T18:34:28.487Z] OFF: Searching Enriched Flour
+[2025-08-10T18:34:28.500Z] OFF: Searching Water
+[2025-08-10T18:34:28.510Z] OFF: Flagged High Fructose Corn Syrup (term match)
+[2025-08-10T18:34:28.512Z] OFF: Searching Tallow
+[2025-08-10T18:34:28.521Z] OFF: Searching Dextrose
+[2025-08-10T18:34:28.529Z] OFF: Searching Egg
+[2025-08-10T18:34:28.537Z] OFF: Searching Contains 2% Or Less Of: Soybean Oil
+[2025-08-10T18:34:28.543Z] OFF: Searching Modified Food Starch
+[2025-08-10T18:34:28.551Z] OFF: Searching Glycerine
+[2025-08-10T18:34:28.561Z] OFF: Searching Whey
+[2025-08-10T18:34:28.572Z] OFF: Searching Corn Starch
+[2025-08-10T18:34:28.579Z] OFF: Searching Salt
+[2025-08-10T18:34:28.586Z] OFF: Searching Corn Syrup Solids
+[2025-08-10T18:34:28.593Z] OFF: Searching Sodium Acid Pyrophosphate
+[2025-08-10T18:34:28.599Z] OFF: Searching Hydrogenated Tallow
+[2025-08-10T18:34:28.605Z] OFF: Searching Baking Soda
+[2025-08-10T18:34:28.611Z] OFF: Searching Cottonseed Oil
+[2025-08-10T18:34:28.621Z] OFF: Searching Soy Lecithin
+[2025-08-10T18:34:28.627Z] OFF: Searching Cellulose Gum
+[2025-08-10T18:34:28.635Z] OFF: Searching Sorbic Acid And Potassium Sorbate
+[2025-08-10T18:34:28.640Z] OFF: Searching Sodium Stearoyl Lactylate
+[2025-08-10T18:34:28.646Z] OFF: Searching Polysorbate 60
+[2025-08-10T18:34:28.653Z] OFF: Searching Mono And Diglycerides
+[2025-08-10T18:34:28.658Z] OFF: Searching Xanthan Gum
+[2025-08-10T18:34:28.664Z] OFF: Searching Monocalcium Phosphate
+[2025-08-10T18:34:28.670Z] OFF: Searching Enzymes
+[2025-08-10T18:34:28.676Z] OFF: Flagged Natural And Artificial Flavors (term match)
+[2025-08-10T18:34:28.678Z] OFF: Searching Yellow 5
+[2025-08-10T18:34:28.685Z] OFF: Searching Red 40.
+[2025-08-10T18:34:30.570Z] OFF: Flagged Egg
+[2025-08-10T18:34:30.629Z] OFF: Flagged Hydrogenated Tallow
+[2025-08-10T18:34:30.988Z] OFF: Flagged Dextrose
+[2025-08-10T18:34:31.036Z] OFF: Flagged Glycerine
+[2025-08-10T18:34:31.148Z] OFF: Flagged Sodium Stearoyl Lactylate
+[2025-08-10T18:34:31.242Z] OFF: Flagged Enriched Flour
+[2025-08-10T18:34:31.324Z] OFF: Flagged Corn Syrup Solids
+[2025-08-10T18:34:31.414Z] OFF: Flagged Sodium Acid Pyrophosphate
+[2025-08-10T18:34:31.493Z] OFF: Flagged Polysorbate 60
+[2025-08-10T18:34:31.524Z] OFF: Flagged Cellulose Gum
+[2025-08-10T18:34:31.687Z] OFF: Flagged Contains 2% Or Less Of: Soybean Oil
+[2025-08-10T18:34:31.781Z] OFF: Flagged Monocalcium Phosphate
+[2025-08-10T18:34:31.837Z] OFF: Flagged Mono And Diglycerides
+[2025-08-10T18:34:32.070Z] OFF: Flagged Cottonseed Oil
+[2025-08-10T18:34:32.147Z] OFF: Flagged Xanthan Gum
+[2025-08-10T18:34:32.618Z] OFF: Flagged Red 40.
+[2025-08-10T18:34:32.813Z] OFF: Flagged Whey
+[2025-08-10T18:34:33.077Z] OFF: Flagged Baking Soda
+[2025-08-10T18:34:33.082Z] AI: Sending prompt (first 200 chars): Explain in simple, friendly terms the health concerns of these ingredients: Enriched Flour, High Fructose Corn Syrup, Dextrose, Egg, Contains 2% Or Less Of: Soybean Oil, Glycerine, Whey, Corn Syrup So
+[2025-08-10T18:34:36.522Z] AI: Got response (first 200 chars): Let's decode some common food ingredients and their potential health impacts:
+
+* **Enriched Flour:**  While enriched, it's still mostly refined carbohydrates, leading to blood sugar spikes and potenti
+[2025-08-15T15:39:49.995Z] Server started at http://localhost:3000
+[2025-08-15T15:55:53.085Z] Server started at http://localhost:3000
+[2025-08-15T15:59:55.824Z] OFF: Checking ingredients: sugar, palm oil, salt
+[2025-08-15T15:59:55.827Z] OFF: Parsed terms: sugar, palm oil, salt
+[2025-08-15T15:59:55.829Z] OFF: Searching sugar
+[2025-08-15T15:59:55.844Z] OFF: Flagged palm oil (term match)
+[2025-08-15T15:59:55.845Z] OFF: Searching salt
+[2025-08-15T15:59:58.733Z] AI: Sending prompt (first 200 chars): Explain in simple, friendly terms the health concerns of these ingredients: palm oil. Keep it short, clear, and engaging for a general audience. Use markdown for formatting (e.g., *list*, **bold**). L
+[2025-08-15T15:59:58.973Z] AI ERROR: status=503, response={
+  "error": {
+    "code": 503,
+    "message": "The model is overloaded. Please try again later.",
+    "status": "UNAVAILABLE"
+  }
+}
+
+[2025-08-15T15:59:58.977Z] AI EXCEPTION: AI failed with status 503
+[2025-08-15T16:03:09.607Z] Server started at http://localhost:3000
+[2025-08-15T16:03:57.426Z] OFF: Checking ingredients: sugar, palm oil, salt
+[2025-08-15T16:03:57.428Z] OFF: Parsed terms: sugar, palm oil, salt
+[2025-08-15T16:03:57.430Z] OFF: Searching sugar
+[2025-08-15T16:03:57.447Z] OFF: Flagged palm oil (term match)
+[2025-08-15T16:03:57.449Z] OFF: Searching salt
+[2025-08-15T16:04:01.092Z] AI: Sending prompt (first 200 chars): Explain in simple, friendly terms the health concerns of these ingredients: palm oil. Keep it short, clear, and engaging for a general audience. Use markdown for formatting (e.g., *list*, **bold**). L
+[2025-08-15T16:04:03.906Z] AI: Got response (first 200 chars): Palm oil is in tons of products, from cookies to shampoo! But while it's versatile, there are some health and environmental concerns to be aware of.
+
+**Health Concerns:**
+
+* **High in Saturated Fat:**
+[2025-08-15T16:59:48.861Z] Server started at http://localhost:3000
+[2025-08-15T17:01:41.705Z] OFF: Checking ingredients: sugar palm oil msg
+[2025-08-15T17:01:41.710Z] OFF: Parsed terms: sugar palm oil msg
+[2025-08-15T17:01:41.713Z] OFF: Flagged sugar palm oil msg (term match)
+[2025-08-15T17:01:41.719Z] AI: Sending prompt (first 200 chars): Explain in simple, friendly terms the health concerns of these ingredients: sugar palm oil msg. Keep it short, clear, and engaging for a general audience. Use markdown for formatting (e.g., *list*, **
+[2025-08-15T17:01:44.383Z] AI: Got response (first 200 chars): Let's talk about three ingredients you might find in your food: sugar, palm oil, and MSG (monosodium glutamate).  Understanding their potential health impacts is key to making informed choices!
+
+* **S
+[2025-08-15T17:08:57.177Z] Server started at http://localhost:3000
+[2025-08-15T17:26:28.056Z] Server started at http://localhost:3000
+[2025-08-15T17:33:18.312Z] Server started at http://localhost:3000
+[2025-08-15T17:33:57.623Z] OFF: Checking ingredients: msg sugar oil
+[2025-08-15T17:33:57.626Z] OFF: Parsed terms: msg sugar oil
+[2025-08-15T17:33:57.629Z] OFF: Searching msg sugar oil
+[2025-08-15T17:34:00.558Z] OFF: No flags due to API issues or no matches
+[2025-08-15T17:34:00.560Z] AI: Sending prompt (first 200 chars): No harmful ingredients found! This product looks safe based on our checks. Want to know more about eating healthy?
+[2025-08-15T17:34:03.539Z] AI: Got response (first 200 chars): This is a good start to a marketing message for a food product. Here are a few ways to improve it, depending on your target audience and marketing goals:
+
+**Option 1 (Focus on safety and health):**
+
+"
+[2025-08-15T18:32:18.025Z] Server started at http://localhost:3000
+[2025-08-15T18:40:53.682Z] Server started at http://localhost:3000
+[2025-08-15T18:44:02.950Z] Server started at http://localhost:3000
+[2025-08-15T19:01:47.599Z] Server started at http://localhost:3000
+[2025-08-15T19:09:13.181Z] Server started at http://localhost:3000
+[2025-08-15T19:39:37.865Z] API /analyze/text error: network timeout at: https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key=AIzaSyAbAhXA82YUVe5YbX5vus7R0wIaqXi--x0
+[2025-08-15T21:02:14.643Z] Server started at http://localhost:3000
+[2025-08-15T21:28:41.950Z] Server started at http://localhost:3000

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Food Label Analyzer - Home</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600;700&family=Nunito:wght@400&display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body class="min-h-screen flex flex-col font-nunito bg-light-mint">
+  <header class="bg-teal-600 text-white shadow-md sticky top-0 z-20 border-2 border-yellow-300">
+    <nav class="container mx-auto p-4 flex justify-between items-center">
+      <a href="/" class="text-2xl font-poppins font-bold text-shadow hover:text-orange-200 transition duration-300">Food Label Analyzer</a>
+    </nav>
+  </header>
+
+  <main class="flex-grow">
+    <section class="relative bg-cover bg-center h-[600px] animate-fade-in mt-0" style="background-image: url('https://images.unsplash.com/photo-1543353071-873f17a7a088?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&q=80')">
+      <div class="absolute inset-0 bg-black bg-opacity-40 flex items-center justify-center">
+        <div class="container mx-auto px-4 text-center text-white">
+          <h2 class="text-4xl md:text-5xl font-poppins font-bold mb-4">Uncover Your Food’s Secrets</h2>
+          <p class="text-lg mb-8">Type or scan ingredients for clear, friendly health insights.</p>
+          <a href="/analyze" class="bg-gradient-to-r from-orange-400 to-orange-500 text-white px-10 py-5 rounded-2xl font-poppins font-semibold hover:from-orange-500 hover:to-orange-600 transition duration-300 text-xl shadow-lg">Start Analyzing</a>
+          <div class="mt-6 flex justify-center space-x-4">
+            <span class="px-4 py-2 bg-light-mint rounded-full text-dark-gray text-sm font-semibold shadow-sm">Powered by Open Food Facts</span>
+            <span class="px-4 py-2 bg-light-mint rounded-full text-dark-gray text-sm font-semibold shadow-sm">AI Insights by Gemini</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="container mx-auto py-24 px-4 text-center animate-fade-in">
+      <h3 class="text-3xl font-poppins font-bold text-dark-gray mb-12">How It Works</h3>
+      <div class="grid grid-cols-1 gap-16 max-w-xl mx-auto">
+        <div class="p-6 rounded-2xl bg-gradient-to-br from-teal-600 to-light-green shadow-lg hover:shadow-xl transition-shadow duration-300 border-2 border-yellow-300">
+          <svg class="w-16 h-16 mb-4 text-gray-800 animate-scale-in" fill="currentColor" viewBox="0 0 24 24">
+            <path d="M19 3H5a2 2 0 00-2 2v14a2 2 0 002 2h14a2 2 0 002-2V5a2 2 0 00-2-2zm0 16H5V5h14v14zM12 8l4 4h-3v4h-2v-4H8l4-4z" />
+          </svg>
+          <h4 class="text-xl font-poppins font-semibold mb-2 text-gray-800">Input Ingredients</h4>
+          <p class="text-gray-800">Type ingredients or snap a label.</p>
+        </div>
+        <div class="p-6 rounded-2xl bg-gradient-to-br from-teal-600 to-light-green shadow-lg hover:shadow-xl transition-shadow duration-300 border-2 border-yellow-300">
+          <svg class="w-16 h-16 mb-4 text-gray-800 animate-scale-in" fill="currentColor" viewBox="0 0 24 24">
+            <path d="M11.5 2a9.5 9.5 0 100 19 9.5 9.5 0 000-19zm0 17a7.5 7.5 0 110-15 7.5 7.5 0 010 15zm0-12a5.5 5.5 0 00-4.9 3.1l6.8 6.8a5.5 5.5 0 00-1.9-9.9z" />
+          </svg>
+          <h4 class="text-xl font-poppins font-semibold mb-2 text-gray-800">Analyze</h4>
+          <p class="text-gray-800">Check for health risks.</p>
+        </div>
+        <div class="p-6 rounded-2xl bg-gradient-to-br from-teal-600 to-light-green shadow-lg hover:shadow-xl transition-shadow duration-300 border-2 border-yellow-300">
+          <svg class="w-16 h-16 mb-4 text-gray-800 animate-scale-in" fill="currentColor" viewBox="0 0 24 24">
+            <path d="M12 2a10 10 0 100 20 10 10 0 000-20zm0 18a8 8 0 110-16 8 8 0 010 16zm-1-6h2v2h-2v-2zm0-8h2v6h-2V6z" />
+          </svg>
+          <h4 class="text-xl font-poppins font-semibold mb-2 text-gray-800">Get Insights</h4>
+          <p class="text-gray-800">Clear, friendly explanations.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="bg-teal-600 text-white p-6 mt-auto border-2 border-yellow-300">
+    <div class="container mx-auto text-center">
+      <p>&copy; 2025 Food Label Analyzer. All rights reserved.</p>
+      <p class="mt-2">Follow us: 
+        <a href="https://twitter.com" class="hover:underline hover:text-orange-200">Twitter</a> | 
+        <a href="https://instagram.com" class="hover:underline hover:text-orange-200">Instagram</a> | 
+        <a href="mailto:support@foodanalyzer.com" class="hover:underline hover:text-orange-200">Contact</a>
+      </p>
+    </div>
+  </footer>
+
+  <script>
+    // Set up animation for sections and buttons
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('visible');
+        }
+      });
+    }, { threshold: 0.2 });
+
+    document.querySelectorAll('.animate-fade-in, .animate-scale-in').forEach(el => {
+      observer.observe(el);
+    });
+  </script>
+</body>
+</html>
